@@ -1,0 +1,5422 @@
+[
+  {
+    "id": 151,
+    "type": "Theory",
+    "question": "What is Java Collections Framework?",
+    "answer": "Java Collections Framework is a set of interfaces and classes that provide reusable data structures and algorithms for storing and manipulating groups of objects. It includes List, Set, Queue, and Map implementations.",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "Collections Basics",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Cognizant"
+    ],
+    "tags": [
+      "collections",
+      "framework",
+      "data-structures"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 152,
+    "type": "Theory",
+    "question": "What are the main interfaces in Java Collections Framework?",
+    "answer": "The main interfaces are Collection, List, Set, Queue, Deque, and Map. Each provides different ways of storing and accessing data.",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "Collections Basics",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Accenture"
+    ],
+    "tags": [
+      "collection",
+      "list",
+      "set",
+      "map"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 153,
+    "type": "Theory",
+    "question": "What is the difference between Collection and Collections in Java?",
+    "answer": "Collection is an interface representing a group of objects, while Collections is a utility class containing static methods like sort(), reverse(), and shuffle().",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "Collections Basics",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 97,
+    "companies": [
+      "Infosys",
+      "Wipro",
+      "HCL"
+    ],
+    "tags": [
+      "collection",
+      "collections-class"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 154,
+    "type": "Theory",
+    "question": "Explain the Collection Framework hierarchy in Java.",
+    "answer": "The Collection hierarchy starts with the Collection interface, extended by List, Set, and Queue. Map is a separate hierarchy that stores key-value pairs.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Collections Basics",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Infosys",
+      "Cognizant"
+    ],
+    "tags": [
+      "hierarchy",
+      "collection-framework"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 155,
+    "type": "Theory",
+    "question": "What is List interface in Java?",
+    "answer": "List is an ordered collection that allows duplicate elements. It provides index-based access and implementations like ArrayList, LinkedList, and Vector.",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "List",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "list",
+      "duplicates",
+      "ordered"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 156,
+    "type": "Theory",
+    "question": "What is ArrayList in Java?",
+    "answer": "ArrayList is a resizable array implementation of the List interface. It provides fast random access but slower insertion and deletion in the middle of the list.",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "ArrayList",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 100,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Amazon"
+    ],
+    "tags": [
+      "arraylist",
+      "list"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 157,
+    "type": "Theory",
+    "question": "How does ArrayList work internally in Java?",
+    "answer": "ArrayList internally uses a dynamic array. When capacity is exceeded, it creates a larger array and copies existing elements into the new array.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "ArrayList",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 100,
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Google"
+    ],
+    "tags": [
+      "arraylist",
+      "internal-working",
+      "dynamic-array"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 158,
+    "type": "Theory",
+    "question": "What is the default capacity of ArrayList in Java?",
+    "answer": "The default capacity of ArrayList is 10 when the first element is added. Modern Java versions optimize allocation by creating the internal array lazily.",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "ArrayList",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 96,
+    "companies": [
+      "Infosys",
+      "Wipro",
+      "Accenture"
+    ],
+    "tags": [
+      "arraylist",
+      "capacity"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 159,
+    "type": "Theory",
+    "question": "Why is ArrayList faster than LinkedList for searching elements?",
+    "answer": "ArrayList provides constant-time random access using indexes, while LinkedList requires traversal from the beginning or end to find an element.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "ArrayList",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 96,
+    "companies": [
+      "Amazon",
+      "Infosys",
+      "Cognizant"
+    ],
+    "tags": [
+      "arraylist",
+      "linkedlist",
+      "performance"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 160,
+    "type": "Theory",
+    "question": "When should you use ArrayList in Java?",
+    "answer": "ArrayList should be used when frequent read operations and random access are required, and insertions or deletions are less frequent.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "ArrayList",
+    "difficulty": "Easy",
+    "frequency": 9,
+    "popularity": 95,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Accenture"
+    ],
+    "tags": [
+      "arraylist",
+      "usage"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 161,
+    "type": "Theory",
+    "question": "What is LinkedList in Java?",
+    "answer": "LinkedList is a doubly linked list implementation of the List and Deque interfaces. Each element contains data along with references to the previous and next nodes.",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "LinkedList",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "linkedlist",
+      "list",
+      "node"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 162,
+    "type": "Theory",
+    "question": "How does LinkedList work internally in Java?",
+    "answer": "LinkedList internally uses nodes where each node stores data, a reference to the next node, and a reference to the previous node. This allows efficient insertion and deletion operations.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "LinkedList",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Oracle"
+    ],
+    "tags": [
+      "linkedlist",
+      "internal-working",
+      "doubly-linked-list"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 163,
+    "type": "Comparison",
+    "question": "What is the difference between ArrayList and LinkedList?",
+    "answer": "ArrayList uses a dynamic array and provides faster random access. LinkedList uses nodes and provides faster insertion and deletion in the middle of the list.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "List Comparison",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 100,
+    "companies": [
+      "Amazon",
+      "Infosys",
+      "Google"
+    ],
+    "tags": [
+      "arraylist",
+      "linkedlist",
+      "comparison"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 164,
+    "type": "Scenario",
+    "question": "Which collection would you choose for frequent insertion and deletion operations?",
+    "answer": "LinkedList is generally preferred for frequent insertions and deletions because adding or removing nodes does not require shifting elements like ArrayList.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "List Scenario",
+    "difficulty": "Medium",
+    "frequency": 8,
+    "popularity": 92,
+    "companies": [
+      "Accenture",
+      "Cognizant",
+      "Infosys"
+    ],
+    "tags": [
+      "linkedlist",
+      "performance"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 165,
+    "type": "Theory",
+    "question": "What is Vector in Java?",
+    "answer": "Vector is a legacy synchronized implementation of the List interface. It is similar to ArrayList but provides thread-safe operations by synchronizing methods.",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "Vector",
+    "difficulty": "Easy",
+    "frequency": 8,
+    "popularity": 88,
+    "companies": [
+      "TCS",
+      "Wipro",
+      "HCL"
+    ],
+    "tags": [
+      "vector",
+      "legacy",
+      "synchronized"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 166,
+    "type": "Comparison",
+    "question": "What is the difference between ArrayList and Vector?",
+    "answer": "ArrayList is not synchronized and provides better performance, while Vector is synchronized and slower because all methods are thread-safe.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Vector",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 94,
+    "companies": [
+      "Infosys",
+      "Accenture",
+      "IBM"
+    ],
+    "tags": [
+      "arraylist",
+      "vector",
+      "comparison"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 167,
+    "type": "Theory",
+    "question": "What is Stack class in Java?",
+    "answer": "Stack is a legacy class that extends Vector and follows the Last-In-First-Out (LIFO) principle. It provides methods like push(), pop(), and peek().",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "Stack",
+    "difficulty": "Easy",
+    "frequency": 8,
+    "popularity": 90,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "stack",
+      "lifo"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 168,
+    "type": "Theory",
+    "question": "What are the commonly used methods of Stack class?",
+    "answer": "Common Stack methods include push() to add elements, pop() to remove the top element, peek() to view the top element, and search() to find an element.",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "Stack",
+    "difficulty": "Easy",
+    "frequency": 7,
+    "popularity": 85,
+    "companies": [
+      "Infosys",
+      "Wipro",
+      "HCL"
+    ],
+    "tags": [
+      "stack",
+      "methods"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 169,
+    "type": "Comparison",
+    "question": "Why is Deque preferred over Stack in modern Java applications?",
+    "answer": "Deque implementations like ArrayDeque provide better performance and are not synchronized. They support stack and queue operations more efficiently than the legacy Stack class.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Deque",
+    "difficulty": "Medium",
+    "frequency": 7,
+    "popularity": 87,
+    "companies": [
+      "Amazon",
+      "Oracle",
+      "Microsoft"
+    ],
+    "tags": [
+      "deque",
+      "arraydeque",
+      "stack"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 170,
+    "type": "Theory",
+    "question": "What is ArrayDeque in Java?",
+    "answer": "ArrayDeque is a resizable array implementation of the Deque interface. It can be used as both stack and queue and does not allow null elements.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Deque",
+    "difficulty": "Medium",
+    "frequency": 8,
+    "popularity": 91,
+    "companies": [
+      "Amazon",
+      "Infosys",
+      "Oracle"
+    ],
+    "tags": [
+      "arraydeque",
+      "deque"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 171,
+    "type": "Scenario",
+    "question": "How do you remove duplicate elements from a List in Java?",
+    "answer": "Duplicates can be removed by converting the List into a Set such as HashSet, using stream distinct(), or by maintaining insertion order with LinkedHashSet.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "List Operations",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "remove-duplicates",
+      "set",
+      "stream"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 172,
+    "type": "Scenario",
+    "question": "How do you make an ArrayList synchronized?",
+    "answer": "An ArrayList can be made synchronized using Collections.synchronizedList() method, which returns a thread-safe wrapper around the list.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Thread Safety",
+    "difficulty": "Medium",
+    "frequency": 7,
+    "popularity": 88,
+    "companies": [
+      "IBM",
+      "Accenture",
+      "Infosys"
+    ],
+    "tags": [
+      "synchronized-list",
+      "arraylist"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 173,
+    "type": "Theory",
+    "question": "Why does ArrayList allow null values?",
+    "answer": "ArrayList allows null because it stores object references and does not impose restrictions on the values stored.",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "ArrayList",
+    "difficulty": "Easy",
+    "frequency": 6,
+    "popularity": 82,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "arraylist",
+      "null"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 174,
+    "type": "Scenario",
+    "question": "How can you iterate over a List in Java?",
+    "answer": "A List can be iterated using for loop, enhanced for loop, Iterator, ListIterator, and Stream API methods.",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "Iteration",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 96,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "iterator",
+      "list",
+      "stream"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 175,
+    "type": "Scenario",
+    "question": "How would you choose between ArrayList and LinkedList in a real application?",
+    "answer": "Choose ArrayList when reads and random access dominate. Choose LinkedList only when frequent insertions and deletions are required and index-based access is limited.",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Performance",
+    "difficulty": "Hard",
+    "frequency": 10,
+    "popularity": 100,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "collection-choice",
+      "performance",
+      "design"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 176,
+    "type": "Theory",
+    "question": "What is Set interface in Java?",
+    "answer": "Set is a collection that does not allow duplicate elements. It is mainly used when uniqueness of elements needs to be maintained.",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "Set",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Cognizant"
+    ],
+    "tags": [
+      "set",
+      "unique-elements"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 177,
+    "type": "Theory",
+    "question": "What are the different implementations of Set interface in Java?",
+    "answer": "The main Set implementations are HashSet, LinkedHashSet, and TreeSet. HashSet provides fast lookup, LinkedHashSet maintains insertion order, and TreeSet maintains sorted order.",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "Set",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Infosys",
+      "Accenture",
+      "IBM"
+    ],
+    "tags": [
+      "hashset",
+      "linkedhashset",
+      "treeset"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 178,
+    "type": "Theory",
+    "question": "What is HashSet in Java?",
+    "answer": "HashSet is an implementation of Set that stores unique elements using hashing internally. It does not guarantee insertion order.",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "HashSet",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 100,
+    "companies": [
+      "Amazon",
+      "Infosys",
+      "TCS"
+    ],
+    "tags": [
+      "hashset",
+      "hashing"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 179,
+    "type": "Theory",
+    "question": "How does HashSet work internally in Java?",
+    "answer": "HashSet internally uses HashMap. Elements are stored as keys in the HashMap with a constant dummy value. Hashing determines the bucket location.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "HashSet",
+    "difficulty": "Hard",
+    "frequency": 10,
+    "popularity": 100,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "hashset",
+      "hashmap",
+      "internal-working"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 180,
+    "type": "Theory",
+    "question": "Why does HashSet not allow duplicate elements?",
+    "answer": "HashSet uses hashCode() and equals() methods to identify duplicate objects. If two objects have the same hash code and are equal, only one is stored.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "HashSet",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Oracle",
+      "Infosys"
+    ],
+    "tags": [
+      "hashcode",
+      "equals",
+      "duplicates"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 181,
+    "type": "Scenario",
+    "question": "What happens if equals() is overridden but hashCode() is not overridden?",
+    "answer": "Objects may behave incorrectly in hash-based collections because equal objects may generate different hash codes and duplicate values may be stored.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "HashSet",
+    "difficulty": "Hard",
+    "frequency": 10,
+    "popularity": 100,
+    "companies": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "equals",
+      "hashcode",
+      "contract"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 182,
+    "type": "Theory",
+    "question": "What is LinkedHashSet in Java?",
+    "answer": "LinkedHashSet is a HashSet implementation that maintains insertion order by internally using a linked list along with hashing.",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "LinkedHashSet",
+    "difficulty": "Easy",
+    "frequency": 8,
+    "popularity": 92,
+    "companies": [
+      "Infosys",
+      "Wipro",
+      "Cognizant"
+    ],
+    "tags": [
+      "linkedhashset",
+      "insertion-order"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 183,
+    "type": "Comparison",
+    "question": "What is the difference between HashSet and LinkedHashSet?",
+    "answer": "HashSet does not maintain any order, while LinkedHashSet maintains insertion order. LinkedHashSet requires additional memory for maintaining links.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Set Comparison",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 95,
+    "companies": [
+      "Amazon",
+      "Infosys",
+      "Accenture"
+    ],
+    "tags": [
+      "hashset",
+      "linkedhashset"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 184,
+    "type": "Theory",
+    "question": "What is TreeSet in Java?",
+    "answer": "TreeSet is a sorted Set implementation based on a Red-Black tree. It stores elements in natural ordering or according to a Comparator.",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "TreeSet",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Amazon",
+      "Oracle",
+      "Microsoft"
+    ],
+    "tags": [
+      "treeset",
+      "sorting",
+      "red-black-tree"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 185,
+    "type": "Theory",
+    "question": "How does TreeSet maintain sorted order?",
+    "answer": "TreeSet internally uses a TreeMap, which stores elements according to their natural ordering or a provided Comparator.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "TreeSet",
+    "difficulty": "Hard",
+    "frequency": 9,
+    "popularity": 96,
+    "companies": [
+      "Google",
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "treeset",
+      "treemap",
+      "sorting"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 186,
+    "type": "Theory",
+    "question": "What is Comparable interface in Java?",
+    "answer": "Comparable is an interface used to define the natural ordering of objects. A class implements Comparable and overrides compareTo() method to specify default sorting behavior.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Sorting",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Infosys",
+      "Oracle"
+    ],
+    "tags": [
+      "comparable",
+      "sorting",
+      "compareTo"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 187,
+    "type": "Theory",
+    "question": "What is Comparator interface in Java?",
+    "answer": "Comparator is used to define custom sorting logic externally without modifying the original class. It provides the compare() method.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Sorting",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 100,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "comparator",
+      "sorting",
+      "compare"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 188,
+    "type": "Comparison",
+    "question": "What is the difference between Comparable and Comparator?",
+    "answer": "Comparable defines natural ordering inside the class using compareTo(). Comparator defines custom ordering externally using compare(). A class can have multiple Comparators.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Sorting",
+    "difficulty": "Hard",
+    "frequency": 10,
+    "popularity": 100,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "comparable",
+      "comparator",
+      "difference"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 189,
+    "type": "Scenario",
+    "question": "How do you sort custom objects in Java?",
+    "answer": "Custom objects can be sorted by implementing Comparable for natural ordering or by creating a Comparator with custom sorting logic.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Sorting",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Infosys",
+      "Amazon",
+      "Accenture"
+    ],
+    "tags": [
+      "object-sorting",
+      "comparable",
+      "comparator"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 190,
+    "type": "Scenario",
+    "question": "How do you sort a list of employees by salary in Java?",
+    "answer": "Create a Comparator comparing the salary field and pass it to Collections.sort() or List.sort() method.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Sorting",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 96,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Cognizant"
+    ],
+    "tags": [
+      "comparator",
+      "employee",
+      "sorting"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 191,
+    "type": "Scenario",
+    "question": "How can you sort objects by multiple fields using Comparator?",
+    "answer": "Multiple sorting conditions can be created using Comparator chaining with methods like comparing(), thenComparing(), and reversed().",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Sorting",
+    "difficulty": "Hard",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Google"
+    ],
+    "tags": [
+      "comparator-chaining",
+      "multiple-sort"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 192,
+    "type": "Theory",
+    "question": "What happens when TreeSet stores objects without Comparable implementation?",
+    "answer": "TreeSet throws ClassCastException because it cannot determine how to compare objects unless they implement Comparable or a Comparator is provided.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "TreeSet",
+    "difficulty": "Hard",
+    "frequency": 8,
+    "popularity": 94,
+    "companies": [
+      "Amazon",
+      "Oracle",
+      "IBM"
+    ],
+    "tags": [
+      "treeset",
+      "comparable",
+      "classcastexception"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 193,
+    "type": "Theory",
+    "question": "Does TreeSet allow null values in Java?",
+    "answer": "TreeSet generally does not allow null values because it needs to compare elements for ordering. Adding null causes NullPointerException in natural ordering.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "TreeSet",
+    "difficulty": "Medium",
+    "frequency": 7,
+    "popularity": 88,
+    "companies": [
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "treeset",
+      "null"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 194,
+    "type": "Scenario",
+    "question": "How can you remove duplicate objects from a list while maintaining insertion order?",
+    "answer": "Convert the list into a LinkedHashSet because it removes duplicates while preserving the original insertion order.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Set Operations",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 95,
+    "companies": [
+      "Amazon",
+      "Infosys",
+      "TCS"
+    ],
+    "tags": [
+      "linkedhashset",
+      "duplicates"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 195,
+    "type": "Theory",
+    "question": "What is NavigableSet interface in Java?",
+    "answer": "NavigableSet extends SortedSet and provides navigation methods like lower(), higher(), floor(), and ceiling() for finding nearby elements.",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Sorted Collections",
+    "difficulty": "Hard",
+    "frequency": 6,
+    "popularity": 82,
+    "companies": [
+      "Oracle",
+      "Amazon"
+    ],
+    "tags": [
+      "navigableset",
+      "sortedset"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 196,
+    "type": "Scenario",
+    "question": "How do you find the first and last elements in a TreeSet?",
+    "answer": "TreeSet provides first() and last() methods to retrieve the smallest and largest elements based on sorting order.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "TreeSet",
+    "difficulty": "Easy",
+    "frequency": 7,
+    "popularity": 86,
+    "companies": [
+      "Infosys",
+      "Accenture"
+    ],
+    "tags": [
+      "treeset",
+      "first",
+      "last"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 197,
+    "type": "Scenario",
+    "question": "How can you reverse sorting order using Comparator?",
+    "answer": "Reverse ordering can be achieved using Comparator.reverseOrder(), reversed(), or by implementing compare logic in descending order.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Sorting",
+    "difficulty": "Medium",
+    "frequency": 8,
+    "popularity": 90,
+    "companies": [
+      "Amazon",
+      "Infosys"
+    ],
+    "tags": [
+      "comparator",
+      "reverse-order"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 198,
+    "type": "Theory",
+    "question": "Why should compareTo() be consistent with equals()?",
+    "answer": "If compareTo() and equals() are inconsistent, sorted collections like TreeSet may behave unexpectedly by considering unequal objects as duplicates.",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Sorting",
+    "difficulty": "Hard",
+    "frequency": 7,
+    "popularity": 90,
+    "companies": [
+      "Google",
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "comparable",
+      "equals",
+      "contract"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 199,
+    "type": "Scenario",
+    "question": "How do you sort a Map by its values in Java?",
+    "answer": "A Map can be sorted by values by converting entries into a list, applying Comparator on values, and collecting the result into a LinkedHashMap.",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Sorting",
+    "difficulty": "Hard",
+    "frequency": 9,
+    "popularity": 96,
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Google"
+    ],
+    "tags": [
+      "map-sorting",
+      "comparator"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 200,
+    "type": "Scenario",
+    "question": "Which Set implementation should be used when sorted unique elements are required?",
+    "answer": "TreeSet should be used because it stores unique elements and maintains them in sorted order using natural ordering or Comparator.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Set Selection",
+    "difficulty": "Easy",
+    "frequency": 9,
+    "popularity": 95,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Amazon"
+    ],
+    "tags": [
+      "treeset",
+      "selection"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 201,
+    "type": "Theory",
+    "question": "What is Map interface in Java?",
+    "answer": "Map is an interface that stores data in key-value pairs. Each key must be unique, while values can be duplicated.",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "Map",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 100,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Cognizant"
+    ],
+    "tags": [
+      "map",
+      "key-value"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 202,
+    "type": "Theory",
+    "question": "What are the main implementations of Map interface in Java?",
+    "answer": "Common Map implementations are HashMap, LinkedHashMap, TreeMap, Hashtable, ConcurrentHashMap, WeakHashMap, and IdentityHashMap.",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "Map",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Infosys",
+      "Accenture",
+      "IBM"
+    ],
+    "tags": [
+      "map",
+      "implementations"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 203,
+    "type": "Theory",
+    "question": "What is HashMap in Java?",
+    "answer": "HashMap is a Map implementation that stores key-value pairs using hashing. It provides average constant-time performance for insertion and retrieval operations.",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "HashMap",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 100,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "hashmap",
+      "hashing"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 204,
+    "type": "Theory",
+    "question": "How does HashMap work internally in Java?",
+    "answer": "HashMap stores entries in buckets based on hash values. The hashCode() determines the bucket location, and equals() identifies the exact key during retrieval.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "HashMap",
+    "difficulty": "Hard",
+    "frequency": 10,
+    "popularity": 100,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "hashmap",
+      "internal-working",
+      "hashing"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 205,
+    "type": "Theory",
+    "question": "What happens when two keys have the same hashCode in HashMap?",
+    "answer": "When two keys have the same hashCode, they are stored in the same bucket. HashMap uses equals() to differentiate between them.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "HashMap",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Oracle",
+      "Microsoft"
+    ],
+    "tags": [
+      "collision",
+      "hashmap",
+      "equals"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 206,
+    "type": "Theory",
+    "question": "What is hash collision in HashMap?",
+    "answer": "Hash collision occurs when multiple keys generate the same hash value and are mapped to the same bucket.",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "HashMap",
+    "difficulty": "Easy",
+    "frequency": 9,
+    "popularity": 96,
+    "companies": [
+      "Infosys",
+      "TCS",
+      "Wipro"
+    ],
+    "tags": [
+      "hash-collision",
+      "hashmap"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 207,
+    "type": "Theory",
+    "question": "How does Java 8 improve HashMap collision handling?",
+    "answer": "Java 8 converts a bucket containing many entries from a linked list into a balanced Red-Black tree after a threshold is reached, improving lookup performance.",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "HashMap",
+    "difficulty": "Hard",
+    "frequency": 10,
+    "popularity": 100,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "java8",
+      "hashmap",
+      "treeification"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 208,
+    "type": "Theory",
+    "question": "What is the default initial capacity of HashMap?",
+    "answer": "The default initial capacity of HashMap is 16 buckets, and the default load factor is 0.75.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "HashMap",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Amazon",
+      "Infosys",
+      "Oracle"
+    ],
+    "tags": [
+      "hashmap",
+      "capacity",
+      "load-factor"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 209,
+    "type": "Theory",
+    "question": "What is load factor in HashMap?",
+    "answer": "Load factor determines when HashMap should resize. When the number of entries exceeds capacity multiplied by load factor, HashMap increases its capacity.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "HashMap",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 96,
+    "companies": [
+      "Amazon",
+      "IBM",
+      "Oracle"
+    ],
+    "tags": [
+      "load-factor",
+      "resize"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 210,
+    "type": "Scenario",
+    "question": "Why should immutable objects be used as HashMap keys?",
+    "answer": "Immutable objects provide consistent hashCode and equals results. If a key changes after insertion, the object may become unreachable in the HashMap.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "HashMap",
+    "difficulty": "Hard",
+    "frequency": 10,
+    "popularity": 100,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "immutable",
+      "hashmap-key"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 211,
+    "type": "Theory",
+    "question": "What is LinkedHashMap in Java?",
+    "answer": "LinkedHashMap is a HashMap implementation that maintains insertion order of keys by internally maintaining a doubly linked list along with hashing.",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "LinkedHashMap",
+    "difficulty": "Easy",
+    "frequency": 9,
+    "popularity": 95,
+    "companies": [
+      "Infosys",
+      "TCS",
+      "Cognizant"
+    ],
+    "tags": [
+      "linkedhashmap",
+      "ordering"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 212,
+    "type": "Comparison",
+    "question": "What is the difference between HashMap and LinkedHashMap?",
+    "answer": "HashMap does not maintain any ordering, while LinkedHashMap maintains insertion order or access order. LinkedHashMap requires additional memory for maintaining links.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Map Comparison",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Oracle",
+      "Infosys"
+    ],
+    "tags": [
+      "hashmap",
+      "linkedhashmap",
+      "comparison"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 213,
+    "type": "Scenario",
+    "question": "How can LinkedHashMap be used to implement an LRU cache?",
+    "answer": "LinkedHashMap supports access-order mode. By overriding removeEldestEntry(), the oldest unused entries can automatically be removed when the cache exceeds its size limit.",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "LinkedHashMap",
+    "difficulty": "Hard",
+    "frequency": 10,
+    "popularity": 100,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "lru-cache",
+      "linkedhashmap"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 214,
+    "type": "Theory",
+    "question": "What is TreeMap in Java?",
+    "answer": "TreeMap is a Map implementation that stores key-value pairs in sorted order based on keys. It internally uses a Red-Black tree.",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "TreeMap",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 96,
+    "companies": [
+      "Oracle",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "treemap",
+      "sorting",
+      "red-black-tree"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 215,
+    "type": "Comparison",
+    "question": "What is the difference between HashMap and TreeMap?",
+    "answer": "HashMap provides faster average O(1) lookup and does not maintain order. TreeMap maintains sorted order and provides O(log n) operations.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Map Comparison",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 100,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Infosys"
+    ],
+    "tags": [
+      "hashmap",
+      "treemap",
+      "comparison"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 216,
+    "type": "Theory",
+    "question": "What is WeakHashMap in Java?",
+    "answer": "WeakHashMap is a Map implementation where keys are stored using weak references. Entries can be automatically removed by garbage collection when keys are no longer strongly referenced.",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "WeakHashMap",
+    "difficulty": "Hard",
+    "frequency": 7,
+    "popularity": 88,
+    "companies": [
+      "Google",
+      "Oracle",
+      "Amazon"
+    ],
+    "tags": [
+      "weakhashmap",
+      "garbage-collection"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 217,
+    "type": "Scenario",
+    "question": "Where is WeakHashMap used in real applications?",
+    "answer": "WeakHashMap is useful for caching metadata or temporary information where entries should disappear automatically when the associated objects are no longer used.",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "WeakHashMap",
+    "difficulty": "Hard",
+    "frequency": 6,
+    "popularity": 85,
+    "companies": [
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "cache",
+      "weak-reference"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 218,
+    "type": "Theory",
+    "question": "What is IdentityHashMap in Java?",
+    "answer": "IdentityHashMap compares keys using reference equality (==) instead of logical equality (equals()). It is useful when object identity matters.",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "IdentityHashMap",
+    "difficulty": "Hard",
+    "frequency": 6,
+    "popularity": 84,
+    "companies": [
+      "Oracle",
+      "Amazon"
+    ],
+    "tags": [
+      "identityhashmap",
+      "reference-equality"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 219,
+    "type": "Comparison",
+    "question": "What is the difference between HashMap and IdentityHashMap?",
+    "answer": "HashMap uses equals() and hashCode() for key comparison, while IdentityHashMap uses == operator and System.identityHashCode().",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Map Comparison",
+    "difficulty": "Hard",
+    "frequency": 7,
+    "popularity": 87,
+    "companies": [
+      "Oracle",
+      "Google"
+    ],
+    "tags": [
+      "hashmap",
+      "identityhashmap"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 220,
+    "type": "Comparison",
+    "question": "What is the difference between HashMap and Hashtable?",
+    "answer": "HashMap is non-synchronized and allows one null key and multiple null values. Hashtable is synchronized and does not allow null keys or values.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Hashtable",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "IBM"
+    ],
+    "tags": [
+      "hashmap",
+      "hashtable",
+      "comparison"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 221,
+    "type": "Theory",
+    "question": "Why is Hashtable considered a legacy class?",
+    "answer": "Hashtable is a legacy class because it uses synchronized methods causing performance overhead. Modern applications usually prefer ConcurrentHashMap for thread-safe operations.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Hashtable",
+    "difficulty": "Medium",
+    "frequency": 8,
+    "popularity": 90,
+    "companies": [
+      "Oracle",
+      "IBM",
+      "Infosys"
+    ],
+    "tags": [
+      "hashtable",
+      "legacy"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 222,
+    "type": "Scenario",
+    "question": "How do you iterate through entries of a Map in Java?",
+    "answer": "The recommended approach is using entrySet() with a for-each loop because it retrieves both key and value efficiently.",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "Map Operations",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 97,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "map",
+      "entryset",
+      "iteration"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 223,
+    "type": "Scenario",
+    "question": "How do you check if a key exists in a Map?",
+    "answer": "Use the containsKey() method, which checks whether the specified key exists in the Map.",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "Map Operations",
+    "difficulty": "Easy",
+    "frequency": 9,
+    "popularity": 94,
+    "companies": [
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "containskey",
+      "map"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 224,
+    "type": "Scenario",
+    "question": "How do you merge two Maps in Java?",
+    "answer": "Maps can be merged using putAll(), Stream API, or Map.merge() method depending on whether duplicate key handling is required.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Map Operations",
+    "difficulty": "Medium",
+    "frequency": 8,
+    "popularity": 90,
+    "companies": [
+      "Amazon",
+      "Infosys"
+    ],
+    "tags": [
+      "map-merge",
+      "putall"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 225,
+    "type": "Scenario",
+    "question": "How do you count frequency of elements using HashMap?",
+    "answer": "Create a HashMap where the element is stored as a key and its count as the value. Update the count whenever the element appears again.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "HashMap",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Google",
+      "TCS"
+    ],
+    "tags": [
+      "frequency-count",
+      "hashmap"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 226,
+    "type": "Theory",
+    "question": "What is ConcurrentHashMap in Java?",
+    "answer": "ConcurrentHashMap is a thread-safe Map implementation designed for concurrent access. It allows multiple threads to read and update the map efficiently without locking the entire data structure.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "ConcurrentHashMap",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 100,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "concurrenthashmap",
+      "multithreading"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 227,
+    "type": "Theory",
+    "question": "How is ConcurrentHashMap different from HashMap?",
+    "answer": "HashMap is not thread-safe and allows concurrent modification issues. ConcurrentHashMap supports concurrent access and provides thread-safe operations.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "ConcurrentHashMap",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Oracle",
+      "Microsoft"
+    ],
+    "tags": [
+      "hashmap",
+      "concurrenthashmap",
+      "comparison"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 228,
+    "type": "Theory",
+    "question": "Why does ConcurrentHashMap not allow null keys or null values?",
+    "answer": "ConcurrentHashMap does not allow null because null could represent absence of value and create ambiguity during concurrent operations.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "ConcurrentHashMap",
+    "difficulty": "Medium",
+    "frequency": 8,
+    "popularity": 92,
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "tags": [
+      "null",
+      "concurrenthashmap"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 229,
+    "type": "Theory",
+    "question": "What is the difference between Hashtable and ConcurrentHashMap?",
+    "answer": "Hashtable locks the entire map during operations, while ConcurrentHashMap uses a more efficient locking mechanism allowing higher concurrency.",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "ConcurrentHashMap",
+    "difficulty": "Hard",
+    "frequency": 9,
+    "popularity": 96,
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Oracle"
+    ],
+    "tags": [
+      "hashtable",
+      "concurrenthashmap"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 230,
+    "type": "Theory",
+    "question": "What is fail-fast behavior in Java collections?",
+    "answer": "Fail-fast collections throw ConcurrentModificationException when a collection is structurally modified while iterating, except through the iterator itself.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Iterator",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Infosys",
+      "Amazon",
+      "TCS"
+    ],
+    "tags": [
+      "fail-fast",
+      "iterator"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 231,
+    "type": "Theory",
+    "question": "What is fail-safe behavior in Java collections?",
+    "answer": "Fail-safe collections allow modification during iteration because they work on a copy or use internal mechanisms that avoid ConcurrentModificationException.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Iterator",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Amazon",
+      "Infosys"
+    ],
+    "tags": [
+      "fail-safe",
+      "iterator"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 232,
+    "type": "Comparison",
+    "question": "What is the difference between fail-fast and fail-safe iterators?",
+    "answer": "Fail-fast iterators directly work on the collection and throw exceptions on modification, while fail-safe iterators work on a copy and allow modification.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Iterator",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 100,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "fail-fast",
+      "fail-safe"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 233,
+    "type": "Theory",
+    "question": "What is Iterator interface in Java?",
+    "answer": "Iterator is used to traverse elements of a collection sequentially. It provides methods like hasNext(), next(), and remove().",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "Iterator",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 97,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "iterator",
+      "traversal"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 234,
+    "type": "Comparison",
+    "question": "What is the difference between Iterator and ListIterator?",
+    "answer": "Iterator works with all collections and supports forward traversal. ListIterator works only with List and supports forward, backward traversal, and element updates.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Iterator",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 95,
+    "companies": [
+      "Infosys",
+      "Accenture"
+    ],
+    "tags": [
+      "iterator",
+      "listiterator"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 235,
+    "type": "Scenario",
+    "question": "Why should Iterator be preferred over traditional for loops for collections?",
+    "answer": "Iterator provides a standard way to traverse different collection types and safely remove elements during iteration.",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "Iterator",
+    "difficulty": "Easy",
+    "frequency": 7,
+    "popularity": 88,
+    "companies": [
+      "TCS",
+      "Wipro"
+    ],
+    "tags": [
+      "iterator",
+      "looping"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 236,
+    "type": "Scenario",
+    "question": "Which collection should be used for storing unique elements with fast lookup?",
+    "answer": "HashSet is preferred because it provides fast average O(1) lookup and automatically removes duplicate values.",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "Selection",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "hashset",
+      "selection"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 237,
+    "type": "Scenario",
+    "question": "Which collection should be used when insertion order must be preserved?",
+    "answer": "LinkedHashSet or LinkedHashMap should be used because they maintain insertion order.",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "Selection",
+    "difficulty": "Easy",
+    "frequency": 8,
+    "popularity": 90,
+    "companies": [
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "linkedhashset",
+      "linkedhashmap"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 238,
+    "type": "Scenario",
+    "question": "Which collection should be used when elements need to remain sorted?",
+    "answer": "TreeSet or TreeMap should be used because they maintain sorted order using natural ordering or Comparator.",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "Selection",
+    "difficulty": "Easy",
+    "frequency": 8,
+    "popularity": 90,
+    "companies": [
+      "Amazon",
+      "Infosys"
+    ],
+    "tags": [
+      "treeset",
+      "treemap"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 239,
+    "type": "Theory",
+    "question": "What are Java 8 enhancements introduced in Collections?",
+    "answer": "Java 8 introduced default methods, Stream API support, removeIf(), forEach(), replaceAll(), and convenient Map methods like computeIfAbsent().",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Java 8",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "tags": [
+      "java8",
+      "collections",
+      "stream"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 240,
+    "type": "Scenario",
+    "question": "How can you safely remove elements from a collection while iterating?",
+    "answer": "Use Iterator.remove() method instead of directly modifying the collection to avoid ConcurrentModificationException.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Iterator",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 95,
+    "companies": [
+      "Amazon",
+      "Infosys"
+    ],
+    "tags": [
+      "iterator",
+      "remove"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 241,
+    "type": "Theory",
+    "question": "What are the time complexities of common Java collections operations?",
+    "answer": "ArrayList provides O(1) random access, LinkedList provides O(1) insertion/removal at known positions, HashMap and HashSet provide average O(1) lookup, while TreeMap and TreeSet provide O(log n) operations.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Performance",
+    "difficulty": "Hard",
+    "frequency": 10,
+    "popularity": 100,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "complexity",
+      "performance",
+      "collections"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 242,
+    "type": "Scenario",
+    "question": "You need to store millions of records and perform frequent searches. Which collection would you choose?",
+    "answer": "HashMap is generally preferred because it provides average O(1) lookup performance. Proper initial capacity should be configured to avoid frequent resizing.",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Performance",
+    "difficulty": "Hard",
+    "frequency": 10,
+    "popularity": 100,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "hashmap",
+      "optimization",
+      "large-data"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 243,
+    "type": "Scenario",
+    "question": "How can you improve HashMap performance when storing a large number of elements?",
+    "answer": "Initialize HashMap with an appropriate capacity based on expected entries and load factor to reduce resizing operations.",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "HashMap Optimization",
+    "difficulty": "Hard",
+    "frequency": 9,
+    "popularity": 96,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "hashmap",
+      "capacity",
+      "optimization"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 244,
+    "type": "Scenario",
+    "question": "How do you make a collection read-only in Java?",
+    "answer": "Collections utility methods like unmodifiableList(), unmodifiableSet(), and unmodifiableMap() create read-only views of collections.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Collections Utility",
+    "difficulty": "Medium",
+    "frequency": 8,
+    "popularity": 90,
+    "companies": [
+      "Infosys",
+      "Accenture"
+    ],
+    "tags": [
+      "unmodifiable",
+      "collections"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 245,
+    "type": "Theory",
+    "question": "What is the difference between synchronized collections and concurrent collections?",
+    "answer": "Synchronized collections use a single lock around operations, while concurrent collections are designed for better scalability using advanced concurrency techniques.",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Concurrency",
+    "difficulty": "Hard",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Google"
+    ],
+    "tags": [
+      "synchronized",
+      "concurrent"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 246,
+    "type": "Scenario",
+    "question": "How would you choose a collection for implementing a cache?",
+    "answer": "The choice depends on requirements. LinkedHashMap can implement simple LRU caches, ConcurrentHashMap supports concurrent caching, and specialized cache libraries can be used for advanced requirements.",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Real World Scenario",
+    "difficulty": "Hard",
+    "frequency": 10,
+    "popularity": 100,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "cache",
+      "linkedhashmap",
+      "concurrenthashmap"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 247,
+    "type": "Scenario",
+    "question": "How would you store data where duplicates are allowed and insertion order matters?",
+    "answer": "ArrayList or LinkedList can be used because they allow duplicates and maintain insertion order.",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "Collection Selection",
+    "difficulty": "Easy",
+    "frequency": 8,
+    "popularity": 90,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "list",
+      "selection"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 248,
+    "type": "Scenario",
+    "question": "How would you store data where duplicates are not allowed and order does not matter?",
+    "answer": "HashSet should be used because it stores unique elements and does not maintain ordering, providing efficient lookup.",
+    "experience": {
+      "min": 0,
+      "max": 1,
+      "label": "Fresher"
+    },
+    "category": "Java Collections",
+    "subcategory": "Collection Selection",
+    "difficulty": "Easy",
+    "frequency": 8,
+    "popularity": 91,
+    "companies": [
+      "TCS",
+      "Wipro"
+    ],
+    "tags": [
+      "hashset",
+      "selection"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 249,
+    "type": "Scenario",
+    "question": "How would you design a collection solution for processing unique sorted transactions?",
+    "answer": "TreeSet can be used when only unique sorted values are required. If key-value mapping is needed, TreeMap is a better choice.",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Design Scenario",
+    "difficulty": "Hard",
+    "frequency": 8,
+    "popularity": 95,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "treeset",
+      "treemap",
+      "design"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 250,
+    "type": "Scenario",
+    "question": "How do you decide which Java Collection to use in an application?",
+    "answer": "The choice depends on requirements such as ordering, uniqueness, searching speed, insertion frequency, thread safety, and memory constraints. List is used for ordered duplicates, Set for uniqueness, and Map for key-value relationships.",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Design Scenario",
+    "difficulty": "Hard",
+    "frequency": 10,
+    "popularity": 100,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft",
+      "Oracle"
+    ],
+    "tags": [
+      "collection-selection",
+      "design",
+      "architecture"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 251,
+    "type": "Theory",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Advanced HashMap",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "frequency": 10,
+    "popularity": 100,
+    "question": "Why is String commonly used as a HashMap key in Java?",
+    "answer": "String is immutable and provides properly implemented hashCode() and equals() methods. Since the value cannot change after insertion, the hash value remains consistent, making it reliable as a HashMap key.",
+    "tags": [
+      "hashmap",
+      "string",
+      "immutable"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 252,
+    "type": "Theory",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Advanced HashMap",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Oracle",
+      "Microsoft"
+    ],
+    "frequency": 9,
+    "popularity": 97,
+    "question": "What happens internally when you insert a new key-value pair into HashMap?",
+    "answer": "HashMap calculates the key's hashCode(), applies hashing logic to find the bucket index, checks existing keys using equals(), and either inserts a new node or updates the existing value.",
+    "tags": [
+      "hashmap",
+      "put-operation",
+      "internal-working"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 253,
+    "type": "Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Advanced HashMap",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "frequency": 10,
+    "popularity": 99,
+    "question": "What happens if a HashMap key's hashCode changes after insertion?",
+    "answer": "The entry may become unreachable because HashMap searches using the new hash value and may look in a different bucket. This is why mutable objects should not be used as keys.",
+    "tags": [
+      "hashmap",
+      "mutable-key",
+      "hashcode"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 254,
+    "type": "Comparison",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "HashMap",
+    "difficulty": "Medium",
+    "companies": [
+      "Infosys",
+      "TCS",
+      "Wipro"
+    ],
+    "frequency": 9,
+    "popularity": 95,
+    "question": "What is the difference between capacity and size in HashMap?",
+    "answer": "Capacity represents the number of buckets available in HashMap, while size represents the number of key-value mappings currently stored.",
+    "tags": [
+      "hashmap",
+      "capacity",
+      "size"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 255,
+    "type": "Theory",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "HashMap",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Oracle"
+    ],
+    "frequency": 9,
+    "popularity": 96,
+    "question": "Why does HashMap use both hashCode() and equals() methods?",
+    "answer": "hashCode() identifies the possible bucket location, while equals() verifies whether the key objects are logically equal. Both are required to correctly store and retrieve values.",
+    "tags": [
+      "hashcode",
+      "equals",
+      "hashmap"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 256,
+    "type": "Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "HashMap",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "frequency": 8,
+    "popularity": 92,
+    "question": "Can two unequal objects have the same hashCode?",
+    "answer": "Yes. Multiple unequal objects can have the same hashCode. This is called hash collision, and equals() is used to differentiate them.",
+    "tags": [
+      "hashcollision",
+      "equals"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 257,
+    "type": "Theory",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Copy Collections",
+    "difficulty": "Medium",
+    "companies": [
+      "Oracle",
+      "Infosys"
+    ],
+    "frequency": 7,
+    "popularity": 88,
+    "question": "What is the difference between shallow copy and deep copy of collections?",
+    "answer": "Shallow copy creates a new collection but keeps references to the same objects. Deep copy creates independent copies of the objects as well.",
+    "tags": [
+      "copy",
+      "deep-copy",
+      "shallow-copy"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 258,
+    "type": "Theory",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Copy Collections",
+    "difficulty": "Medium",
+    "companies": [
+      "Amazon",
+      "Infosys"
+    ],
+    "frequency": 8,
+    "popularity": 90,
+    "question": "What is the difference between clone() and copy constructor for collections?",
+    "answer": "clone() creates a shallow copy using Object cloning mechanism, while a copy constructor explicitly creates a new collection from existing data and provides better control.",
+    "tags": [
+      "clone",
+      "copy-constructor"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 259,
+    "type": "Theory",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Concurrent Collections",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "frequency": 10,
+    "popularity": 100,
+    "question": "What is CopyOnWriteArrayList in Java?",
+    "answer": "CopyOnWriteArrayList is a thread-safe List implementation where every modification creates a new copy of the underlying array. It is useful when reads are much more frequent than writes.",
+    "tags": [
+      "copyonwritearraylist",
+      "thread-safe"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 260,
+    "type": "Comparison",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Concurrent Collections",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "frequency": 9,
+    "popularity": 95,
+    "question": "Why is CopyOnWriteArrayList slower for write operations?",
+    "answer": "Every write operation creates a new copy of the underlying array, causing additional memory allocation and copying overhead.",
+    "tags": [
+      "copyonwritearraylist",
+      "performance"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 261,
+    "type": "Theory",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Concurrent Collections",
+    "difficulty": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Oracle"
+    ],
+    "frequency": 8,
+    "popularity": 92,
+    "question": "What is ConcurrentHashMap in Java?",
+    "answer": "ConcurrentHashMap is a thread-safe implementation of the Map interface designed for high concurrency. It allows multiple threads to read and update the map simultaneously with minimal contention.",
+    "tags": [
+      "concurrenthashmap",
+      "thread-safe",
+      "map"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 262,
+    "type": "Comparison",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Concurrent Collections",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "frequency": 9,
+    "popularity": 94,
+    "question": "How is ConcurrentHashMap different from Hashtable?",
+    "answer": "ConcurrentHashMap provides better scalability by allowing concurrent access to different segments or buckets, whereas Hashtable synchronizes the entire map for every operation.",
+    "tags": [
+      "concurrenthashmap",
+      "hashtable",
+      "comparison"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 263,
+    "type": "Theory",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Concurrent Collections",
+    "difficulty": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "frequency": 8,
+    "popularity": 91,
+    "question": "Can ConcurrentHashMap store null keys or null values?",
+    "answer": "No. ConcurrentHashMap does not allow null keys or null values because null can create ambiguity in concurrent retrieval operations.",
+    "tags": [
+      "concurrenthashmap",
+      "null",
+      "map"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 264,
+    "type": "Theory",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Concurrent Collections",
+    "difficulty": "Hard",
+    "companies": [
+      "Google",
+      "Microsoft"
+    ],
+    "frequency": 8,
+    "popularity": 93,
+    "question": "What is ConcurrentSkipListMap in Java?",
+    "answer": "ConcurrentSkipListMap is a thread-safe sorted map implementation based on a skip-list data structure that maintains keys in natural or custom sorted order.",
+    "tags": [
+      "concurrentskiplistmap",
+      "sortedmap",
+      "thread-safe"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 265,
+    "type": "Comparison",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Concurrent Collections",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "frequency": 8,
+    "popularity": 94,
+    "question": "When would you choose ConcurrentSkipListMap over ConcurrentHashMap?",
+    "answer": "Choose ConcurrentSkipListMap when sorted key ordering is required. Use ConcurrentHashMap when maximum lookup performance is more important than ordering.",
+    "tags": [
+      "concurrentskiplistmap",
+      "concurrenthashmap",
+      "comparison"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 266,
+    "type": "Theory",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Concurrent Collections",
+    "difficulty": "Medium",
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "frequency": 7,
+    "popularity": 90,
+    "question": "What is BlockingQueue in Java?",
+    "answer": "BlockingQueue is a thread-safe queue that supports operations which wait for the queue to become non-empty when retrieving elements or non-full when inserting elements.",
+    "tags": [
+      "blockingqueue",
+      "queue",
+      "concurrency"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 267,
+    "type": "Theory",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Concurrent Collections",
+    "difficulty": "Medium",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "frequency": 8,
+    "popularity": 92,
+    "question": "What is ArrayBlockingQueue in Java?",
+    "answer": "ArrayBlockingQueue is a bounded BlockingQueue backed by an array. It blocks producers when full and consumers when empty.",
+    "tags": [
+      "arrayblockingqueue",
+      "blockingqueue",
+      "queue"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 268,
+    "type": "Theory",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Concurrent Collections",
+    "difficulty": "Medium",
+    "companies": [
+      "Google",
+      "Microsoft"
+    ],
+    "frequency": 8,
+    "popularity": 91,
+    "question": "What is LinkedBlockingQueue in Java?",
+    "answer": "LinkedBlockingQueue is a BlockingQueue implementation based on linked nodes that can optionally have a capacity limit and supports high-throughput producer-consumer scenarios.",
+    "tags": [
+      "linkedblockingqueue",
+      "blockingqueue",
+      "queue"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 269,
+    "type": "Comparison",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Concurrent Collections",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "frequency": 9,
+    "popularity": 95,
+    "question": "What is the difference between ArrayBlockingQueue and LinkedBlockingQueue?",
+    "answer": "ArrayBlockingQueue uses a fixed-size array and generally has lower memory overhead, while LinkedBlockingQueue uses linked nodes and can support larger or dynamically sized queues.",
+    "tags": [
+      "arrayblockingqueue",
+      "linkedblockingqueue",
+      "comparison"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 270,
+    "type": "Theory",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Concurrent Collections",
+    "difficulty": "Medium",
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "frequency": 8,
+    "popularity": 90,
+    "question": "What is PriorityBlockingQueue in Java?",
+    "answer": "PriorityBlockingQueue is an unbounded thread-safe queue that orders elements according to their natural ordering or a provided Comparator.",
+    "tags": [
+      "priorityblockingqueue",
+      "priority",
+      "queue"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 271,
+    "type": "Theory",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Concurrent Collections",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "frequency": 8,
+    "popularity": 93,
+    "question": "What is DelayQueue in Java?",
+    "answer": "DelayQueue is a specialized BlockingQueue that holds elements until a specified delay has expired before they become available for retrieval.",
+    "tags": [
+      "delayqueue",
+      "blockingqueue",
+      "delay"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 272,
+    "type": "Theory",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Concurrent Collections",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "frequency": 8,
+    "popularity": 92,
+    "question": "What is SynchronousQueue in Java?",
+    "answer": "SynchronousQueue is a queue with no internal capacity where each insert operation must wait for a corresponding remove operation by another thread.",
+    "tags": [
+      "synchronousqueue",
+      "queue",
+      "thread-handoff"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 273,
+    "type": "Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Concurrent Collections",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "frequency": 9,
+    "popularity": 96,
+    "question": "When would you use CopyOnWriteArrayList in a real application?",
+    "answer": "CopyOnWriteArrayList is ideal when read operations significantly outnumber write operations, such as maintaining listeners, configurations, or cached reference data.",
+    "tags": [
+      "copyonwritearraylist",
+      "use-case",
+      "concurrency"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 274,
+    "type": "Comparison",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Concurrent Collections",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "frequency": 9,
+    "popularity": 95,
+    "question": "How does ConcurrentLinkedQueue differ from BlockingQueue?",
+    "answer": "ConcurrentLinkedQueue is a non-blocking queue that never waits for producers or consumers, whereas BlockingQueue supports blocking operations when the queue is empty or full.",
+    "tags": [
+      "concurrentlinkedqueue",
+      "blockingqueue",
+      "comparison"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 275,
+    "type": "Theory",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Concurrent Collections",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "frequency": 9,
+    "popularity": 95,
+    "question": "What is the weakly consistent iterator behavior of concurrent collections?",
+    "answer": "Weakly consistent iterators reflect some changes made after iteration begins without throwing ConcurrentModificationException and without guaranteeing a fully updated view.",
+    "tags": [
+      "iterator",
+      "weakly-consistent",
+      "concurrent-collections"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 276,
+    "type": "Theory",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Concurrent Collections",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "frequency": 9,
+    "popularity": 96,
+    "question": "What is ConcurrentLinkedQueue in Java?",
+    "answer": "ConcurrentLinkedQueue is a thread-safe non-blocking queue implementation based on linked nodes. It allows multiple threads to add and remove elements without explicit locking.",
+    "tags": [
+      "concurrentlinkedqueue",
+      "non-blocking",
+      "queue"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 277,
+    "type": "Comparison",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Concurrent Collections",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "frequency": 8,
+    "popularity": 93,
+    "question": "What is the difference between ConcurrentLinkedQueue and BlockingQueue?",
+    "answer": "ConcurrentLinkedQueue is non-blocking and returns immediately when operations cannot be completed. BlockingQueue waits until elements become available or space is free.",
+    "tags": [
+      "concurrentlinkedqueue",
+      "blockingqueue",
+      "comparison"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 278,
+    "type": "Theory",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Concurrent Collections",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "frequency": 8,
+    "popularity": 92,
+    "question": "How does ConcurrentLinkedQueue achieve thread safety?",
+    "answer": "It uses lock-free algorithms based on Compare-And-Swap (CAS) operations provided by the JVM, avoiding traditional synchronization locks.",
+    "tags": [
+      "cas",
+      "lock-free",
+      "concurrency"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 279,
+    "type": "Theory",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "BlockingQueue",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Oracle"
+    ],
+    "frequency": 9,
+    "popularity": 95,
+    "question": "What are the different implementations of BlockingQueue?",
+    "answer": "Common implementations include ArrayBlockingQueue, LinkedBlockingQueue, PriorityBlockingQueue, DelayQueue, SynchronousQueue, and LinkedTransferQueue.",
+    "tags": [
+      "blockingqueue",
+      "implementations"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 280,
+    "type": "Comparison",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "BlockingQueue",
+    "difficulty": "Medium",
+    "companies": [
+      "Amazon",
+      "Infosys"
+    ],
+    "frequency": 8,
+    "popularity": 91,
+    "question": "What is the difference between ArrayBlockingQueue and LinkedBlockingQueue?",
+    "answer": "ArrayBlockingQueue uses a fixed-size array and requires a predefined capacity. LinkedBlockingQueue uses linked nodes and can optionally have a capacity limit.",
+    "tags": [
+      "arrayblockingqueue",
+      "linkedblockingqueue"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 281,
+    "type": "Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "BlockingQueue",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "frequency": 9,
+    "popularity": 96,
+    "question": "How would you implement a producer-consumer problem using Java Collections?",
+    "answer": "BlockingQueue can be used between producer and consumer threads. Producers add elements using put(), while consumers retrieve elements using take(), automatically handling synchronization.",
+    "tags": [
+      "producer-consumer",
+      "blockingqueue"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 282,
+    "type": "Theory",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Queue",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "frequency": 7,
+    "popularity": 88,
+    "question": "What is DelayQueue in Java?",
+    "answer": "DelayQueue is an unbounded BlockingQueue where elements can be retrieved only after their delay period has expired. Elements must implement the Delayed interface.",
+    "tags": [
+      "delayqueue",
+      "blockingqueue"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 283,
+    "type": "Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Queue",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "frequency": 7,
+    "popularity": 89,
+    "question": "Where can DelayQueue be used in real applications?",
+    "answer": "DelayQueue can be used for scheduling tasks, expiring sessions, cache expiration mechanisms, and delayed job processing systems.",
+    "tags": [
+      "delayqueue",
+      "scheduling"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 284,
+    "type": "Theory",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Queue",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "frequency": 8,
+    "popularity": 90,
+    "question": "What is SynchronousQueue in Java?",
+    "answer": "SynchronousQueue is a blocking queue that does not store elements. Each insert operation waits for a corresponding remove operation by another thread.",
+    "tags": [
+      "synchronousqueue",
+      "threading"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 285,
+    "type": "Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Queue",
+    "difficulty": "Hard",
+    "companies": [
+      "Google",
+      "Microsoft"
+    ],
+    "frequency": 8,
+    "popularity": 92,
+    "question": "Where is SynchronousQueue used in Java applications?",
+    "answer": "SynchronousQueue is commonly used in thread pools like Executors.newCachedThreadPool() where tasks are directly handed over between threads without queue storage.",
+    "tags": [
+      "synchronousqueue",
+      "threadpool"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 286,
+    "type": "Theory",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Queue",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "frequency": 7,
+    "popularity": 88,
+    "question": "What is LinkedTransferQueue in Java?",
+    "answer": "LinkedTransferQueue is an unbounded concurrent queue that supports direct transfer of elements between producer and consumer threads.",
+    "tags": [
+      "linkedtransferqueue",
+      "concurrency"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 287,
+    "type": "Comparison",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Queue",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "frequency": 7,
+    "popularity": 87,
+    "question": "What is the difference between LinkedTransferQueue and BlockingQueue?",
+    "answer": "LinkedTransferQueue provides additional transfer operations where producers can wait until consumers receive elements directly, while BlockingQueue provides general blocking operations.",
+    "tags": [
+      "linkedtransferqueue",
+      "blockingqueue"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 288,
+    "type": "Theory",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Memory",
+    "difficulty": "Medium",
+    "companies": [
+      "Infosys",
+      "Oracle"
+    ],
+    "frequency": 8,
+    "popularity": 90,
+    "question": "Why can collections cause memory leaks in Java applications?",
+    "answer": "Collections can cause memory leaks when unused objects remain referenced inside long-lived collections, preventing garbage collection.",
+    "tags": [
+      "memory-leak",
+      "collections"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 289,
+    "type": "Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Memory",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "frequency": 8,
+    "popularity": 94,
+    "question": "How can you prevent memory issues caused by collections?",
+    "answer": "Remove unnecessary references, clear unused collections, avoid static collections holding objects forever, and use weak references where appropriate.",
+    "tags": [
+      "memory",
+      "optimization"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 290,
+    "type": "Theory",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Immutable Collections",
+    "difficulty": "Medium",
+    "companies": [
+      "Oracle",
+      "Amazon"
+    ],
+    "frequency": 9,
+    "popularity": 95,
+    "question": "What are immutable collections in Java?",
+    "answer": "Immutable collections are collections whose contents cannot be modified after creation. Any modification attempt results in an UnsupportedOperationException.",
+    "tags": [
+      "immutable",
+      "collections"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 291,
+    "type": "Theory",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Immutable Collections",
+    "difficulty": "Medium",
+    "companies": [
+      "Google",
+      "Microsoft"
+    ],
+    "frequency": 8,
+    "popularity": 92,
+    "question": "How can you create immutable collections in Java?",
+    "answer": "Immutable collections can be created using Collections.unmodifiableList(), Collections.unmodifiableSet(), Collections.unmodifiableMap(), or factory methods like List.of(), Set.of(), and Map.of() introduced in Java 9.",
+    "tags": [
+      "immutable",
+      "collections"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 292,
+    "type": "Comparison",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Immutable Collections",
+    "difficulty": "Medium",
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "frequency": 8,
+    "popularity": 93,
+    "question": "What is the difference between unmodifiable and immutable collections?",
+    "answer": "An unmodifiable collection is a read-only view of another collection and can still reflect changes made to the original collection. An immutable collection cannot change after creation.",
+    "tags": [
+      "unmodifiable",
+      "immutable"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 293,
+    "type": "Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Defensive Copying",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "frequency": 9,
+    "popularity": 96,
+    "question": "What is defensive copying in collections?",
+    "answer": "Defensive copying means creating a copy of a collection before storing or returning it to prevent external code from modifying internal data structures.",
+    "tags": [
+      "defensive-copy",
+      "encapsulation"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 294,
+    "type": "Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Defensive Copying",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "frequency": 8,
+    "popularity": 93,
+    "question": "Why is defensive copying important in Java applications?",
+    "answer": "It protects object state from unexpected modifications and helps maintain encapsulation, immutability, and thread safety.",
+    "tags": [
+      "encapsulation",
+      "immutability"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 295,
+    "type": "Theory",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Advanced Map",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "frequency": 9,
+    "popularity": 97,
+    "question": "What is the difference between computeIfAbsent() and putIfAbsent() in Map?",
+    "answer": "putIfAbsent() inserts a given value only when the key is missing. computeIfAbsent() calculates the value lazily using a function only when required.",
+    "tags": [
+      "map",
+      "computeifabsent",
+      "putifabsent"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 296,
+    "type": "Theory",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Advanced Map",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "frequency": 9,
+    "popularity": 97,
+    "question": "What are the Java 8 Map interface default methods?",
+    "answer": "Java 8 introduced methods like forEach(), replaceAll(), putIfAbsent(), compute(), computeIfAbsent(), computeIfPresent(), merge(), and getOrDefault().",
+    "tags": [
+      "java8",
+      "map"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 297,
+    "type": "Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Advanced Map",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "frequency": 9,
+    "popularity": 98,
+    "question": "How do you group objects using Java Collections?",
+    "answer": "Objects can be grouped using Map with a collection as the value, or using Collectors.groupingBy() with Stream API.",
+    "tags": [
+      "grouping",
+      "map",
+      "streams"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 298,
+    "type": "Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Advanced Map",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "frequency": 9,
+    "popularity": 97,
+    "question": "How would you implement a multi-value Map in Java?",
+    "answer": "Java does not provide a built-in MultiMap. It can be implemented using Map<K, List<V>> or by using libraries such as Google Guava Multimap.",
+    "tags": [
+      "multimap",
+      "map"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 299,
+    "type": "Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Design Scenario",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "frequency": 10,
+    "popularity": 100,
+    "question": "How would you design a leaderboard system using Java Collections?",
+    "answer": "A TreeMap, PriorityQueue, or combination of HashMap and sorted collections can be used depending on whether ranking updates or fast lookup is the primary requirement.",
+    "tags": [
+      "leaderboard",
+      "treemap",
+      "priorityqueue"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 300,
+    "type": "Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Design Scenario",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft",
+      "Oracle"
+    ],
+    "frequency": 10,
+    "popularity": 100,
+    "question": "How would you choose the right Java Collection for a production application?",
+    "answer": "The choice depends on data requirements such as ordering, uniqueness, lookup frequency, concurrency needs, memory usage, and modification patterns. Selection should be based on performance and maintainability requirements.",
+    "tags": [
+      "collection-selection",
+      "architecture",
+      "design"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 301,
+    "type": "Coding Scenario",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Coding Problems",
+    "difficulty": "Medium",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "frequency": 10,
+    "popularity": 100,
+    "question": "How do you remove duplicate elements from a List in Java?",
+    "answer": "Duplicates can be removed by converting the List into a Set such as HashSet. If insertion order needs to be preserved, LinkedHashSet can be used.",
+    "tags": [
+      "list",
+      "hashset",
+      "duplicates"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 302,
+    "type": "Coding Scenario",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Coding Problems",
+    "difficulty": "Medium",
+    "companies": [
+      "Amazon",
+      "Infosys"
+    ],
+    "frequency": 10,
+    "popularity": 98,
+    "question": "How do you find duplicate elements in a List using Java Collections?",
+    "answer": "Use a HashSet to track visited elements. If an element already exists in the Set, it is a duplicate.",
+    "tags": [
+      "duplicates",
+      "hashset"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 303,
+    "type": "Coding Scenario",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Coding Problems",
+    "difficulty": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "frequency": 10,
+    "popularity": 100,
+    "question": "How do you find the frequency of each element in a List?",
+    "answer": "Use HashMap where the element is stored as the key and its occurrence count is stored as the value. Java 8 also provides Collectors.groupingBy().",
+    "tags": [
+      "frequency-count",
+      "hashmap"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 304,
+    "type": "Coding Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Coding Problems",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "frequency": 10,
+    "popularity": 100,
+    "question": "How do you find the first non-repeated character in a String using Collections?",
+    "answer": "Use LinkedHashMap to store character frequencies because it maintains insertion order. The first character with frequency one is the answer.",
+    "tags": [
+      "linkedhashmap",
+      "frequency"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 305,
+    "type": "Coding Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Coding Problems",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "frequency": 9,
+    "popularity": 98,
+    "question": "How do you find the first repeated element in an array using Java Collections?",
+    "answer": "Traverse the array and store elements in a HashSet. The first element that already exists in the Set is the repeated element.",
+    "tags": [
+      "hashset",
+      "array"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 306,
+    "type": "Coding Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Coding Problems",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "frequency": 9,
+    "popularity": 97,
+    "question": "How do you find the intersection of two Lists in Java?",
+    "answer": "The retainAll() method of Collection can be used to keep only common elements between two collections.",
+    "tags": [
+      "list",
+      "intersection"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 307,
+    "type": "Coding Scenario",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Coding Problems",
+    "difficulty": "Medium",
+    "companies": [
+      "Infosys",
+      "TCS"
+    ],
+    "frequency": 8,
+    "popularity": 92,
+    "question": "How do you merge two Lists in Java?",
+    "answer": "Lists can be merged using addAll(), Stream concat(), or by creating a new List containing elements from both collections.",
+    "tags": [
+      "list",
+      "merge"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 308,
+    "type": "Coding Scenario",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Coding Problems",
+    "difficulty": "Medium",
+    "companies": [
+      "Amazon",
+      "Infosys"
+    ],
+    "frequency": 9,
+    "popularity": 95,
+    "question": "How do you sort a List of custom objects in Java?",
+    "answer": "Custom objects can be sorted using Comparable for natural ordering or Comparator for custom sorting logic.",
+    "tags": [
+      "comparable",
+      "comparator",
+      "sorting"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 309,
+    "type": "Coding Scenario",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Coding Problems",
+    "difficulty": "Medium",
+    "companies": [
+      "TCS",
+      "Wipro"
+    ],
+    "frequency": 8,
+    "popularity": 90,
+    "question": "How do you reverse a List in Java?",
+    "answer": "Collections.reverse() method can be used to reverse the order of elements in a List.",
+    "tags": [
+      "list",
+      "reverse"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 310,
+    "type": "Coding Scenario",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Coding Problems",
+    "difficulty": "Medium",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "frequency": 9,
+    "popularity": 96,
+    "question": "How do you find the maximum and minimum values from a Collection?",
+    "answer": "Collections.max() and Collections.min() methods can be used to find the largest and smallest elements.",
+    "tags": [
+      "collections",
+      "max",
+      "min"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 311,
+    "type": "Coding Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Coding Problems",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "frequency": 10,
+    "popularity": 100,
+    "question": "How do you find the top K frequent elements using Java Collections?",
+    "answer": "Use HashMap to count frequencies and PriorityQueue to maintain the top K elements efficiently.",
+    "tags": [
+      "hashmap",
+      "priorityqueue",
+      "top-k"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 312,
+    "type": "Coding Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Coding Problems",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "frequency": 10,
+    "popularity": 99,
+    "question": "How do you group employees by department using Java Collections?",
+    "answer": "Use Map where the department is the key and a List of employees is the value. Java 8 Stream API can simplify this using Collectors.groupingBy().",
+    "tags": [
+      "grouping",
+      "map",
+      "employees"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 313,
+    "type": "Coding Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Coding Problems",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "frequency": 9,
+    "popularity": 98,
+    "question": "How do you sort a Map by its values in Java?",
+    "answer": "Map entries can be converted into a List and sorted using Comparator. The sorted entries can then be collected into LinkedHashMap to preserve ordering.",
+    "tags": [
+      "map",
+      "sorting",
+      "linkedhashmap"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 314,
+    "type": "Coding Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Coding Problems",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "frequency": 10,
+    "popularity": 100,
+    "question": "How do you implement an LRU cache using Java Collections?",
+    "answer": "LRU cache can be implemented using LinkedHashMap by enabling access order and overriding removeEldestEntry() to remove the least recently used entry.",
+    "tags": [
+      "lru-cache",
+      "linkedhashmap"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 315,
+    "type": "Coding Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Coding Problems",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "frequency": 10,
+    "popularity": 100,
+    "question": "How do you check whether two Lists contain the same elements regardless of order?",
+    "answer": "Convert both Lists into Sets if duplicate count is not important. If duplicate counts matter, sort both Lists or compare frequency maps.",
+    "tags": [
+      "list",
+      "comparison",
+      "frequency-map"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 316,
+    "type": "Coding Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Coding Problems",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "frequency": 10,
+    "popularity": 100,
+    "question": "How do you find all anagrams from a list of words using Collections?",
+    "answer": "Create a key based on sorted characters or character frequency and store words in a Map where the key represents the anagram group.",
+    "tags": [
+      "anagram",
+      "hashmap",
+      "grouping"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 317,
+    "type": "Coding Scenario",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Coding Problems",
+    "difficulty": "Medium",
+    "companies": [
+      "Infosys",
+      "TCS"
+    ],
+    "frequency": 8,
+    "popularity": 90,
+    "question": "How do you convert a List to a Set and a Set back to a List?",
+    "answer": "A List can be converted to Set using the Set constructor or addAll(). A Set can be converted back to List using the List constructor.",
+    "tags": [
+      "list",
+      "set",
+      "conversion"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 318,
+    "type": "Coding Scenario",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Coding Problems",
+    "difficulty": "Medium",
+    "companies": [
+      "Amazon",
+      "Infosys"
+    ],
+    "frequency": 9,
+    "popularity": 95,
+    "question": "How do you remove null values from a Collection in Java?",
+    "answer": "Use removeIf(element -> element == null) or filter the collection using Stream API.",
+    "tags": [
+      "collection",
+      "null",
+      "removeif"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 319,
+    "type": "Coding Scenario",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Coding Problems",
+    "difficulty": "Medium",
+    "companies": [
+      "TCS",
+      "Wipro"
+    ],
+    "frequency": 8,
+    "popularity": 90,
+    "question": "How do you find the common elements between multiple Sets?",
+    "answer": "Use retainAll() operation repeatedly or use Stream intersection logic to find common elements.",
+    "tags": [
+      "set",
+      "intersection"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 320,
+    "type": "Coding Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Coding Problems",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "frequency": 9,
+    "popularity": 97,
+    "question": "How do you maintain insertion order while removing duplicates from a List?",
+    "answer": "Use LinkedHashSet because it maintains insertion order while storing only unique elements.",
+    "tags": [
+      "linkedhashset",
+      "duplicates"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 321,
+    "type": "Coding Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Coding Problems",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "frequency": 9,
+    "popularity": 96,
+    "question": "How do you find the kth largest element using Java Collections?",
+    "answer": "A PriorityQueue can be used as a min heap of size k. Elements are maintained until only the kth largest remains.",
+    "tags": [
+      "priorityqueue",
+      "heap",
+      "top-k"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 322,
+    "type": "Coding Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Coding Problems",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "frequency": 9,
+    "popularity": 97,
+    "question": "How do you maintain sorted unique elements dynamically in Java?",
+    "answer": "TreeSet should be used because it automatically removes duplicates and keeps elements sorted.",
+    "tags": [
+      "treeset",
+      "sorting"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 323,
+    "type": "Coding Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Coding Problems",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "frequency": 9,
+    "popularity": 96,
+    "question": "How do you create a frequency map of words from a large text file?",
+    "answer": "Read words sequentially and store counts in a HashMap. For very large files, process data in chunks to avoid memory issues.",
+    "tags": [
+      "hashmap",
+      "frequency",
+      "large-data"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 324,
+    "type": "Design Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Real World",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "frequency": 10,
+    "popularity": 100,
+    "question": "How would you design a recently viewed products feature using Java Collections?",
+    "answer": "LinkedHashMap with access ordering can maintain recently viewed products. A fixed size can be enforced by removing the oldest entries.",
+    "tags": [
+      "linkedhashmap",
+      "cache",
+      "design"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 325,
+    "type": "Design Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Real World",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft",
+      "Oracle"
+    ],
+    "frequency": 10,
+    "popularity": 100,
+    "question": "How would you design a cache system supporting concurrent access using Java Collections?",
+    "answer": "ConcurrentHashMap can be used for thread-safe storage. Additional mechanisms like eviction policies and synchronization may be added based on requirements.",
+    "tags": [
+      "concurrenthashmap",
+      "cache",
+      "design"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 326,
+    "type": "Design Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Performance Optimization",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "frequency": 10,
+    "popularity": 100,
+    "question": "How do you optimize the performance of a Java Collection in a high-volume application?",
+    "answer": "Choose the correct collection based on access patterns, initialize capacity appropriately, avoid unnecessary synchronization, use immutable collections where possible, and minimize object creation.",
+    "tags": [
+      "performance",
+      "optimization",
+      "collections"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 327,
+    "type": "Design Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Performance Optimization",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "frequency": 10,
+    "popularity": 99,
+    "question": "How does choosing the wrong Collection impact application performance?",
+    "answer": "Using an inappropriate collection can increase time complexity, memory usage, and synchronization overhead. For example, using ArrayList for frequent middle insertions or HashMap where ordering is required can reduce efficiency.",
+    "tags": [
+      "performance",
+      "time-complexity"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 328,
+    "type": "Design Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Production Scenario",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Google"
+    ],
+    "frequency": 10,
+    "popularity": 100,
+    "question": "How would you store millions of records efficiently using Java Collections?",
+    "answer": "Avoid loading all records into memory. Use appropriate batching, streaming, external storage, pagination, and memory-efficient collections. Select collections based on access requirements.",
+    "tags": [
+      "large-data",
+      "memory-management",
+      "collections"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 329,
+    "type": "Design Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Production Scenario",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft",
+      "Oracle"
+    ],
+    "frequency": 10,
+    "popularity": 100,
+    "question": "How would you handle concurrent modifications to a Collection in a multi-threaded application?",
+    "answer": "Use concurrent collections like ConcurrentHashMap, ConcurrentLinkedQueue, CopyOnWriteArrayList, or synchronize access where required. The choice depends on read/write patterns.",
+    "tags": [
+      "concurrency",
+      "thread-safety",
+      "collections"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 330,
+    "type": "Architecture Scenario",
+    "experience": {
+      "min": 2,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Collections",
+    "subcategory": "Architecture",
+    "difficulty": "Hard",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft",
+      "Oracle"
+    ],
+    "frequency": 10,
+    "popularity": 100,
+    "question": "How do you decide between List, Set, and Map when designing a Java application?",
+    "answer": "Use List when order and duplicates matter, Set when uniqueness is required, and Map when data needs key-value lookup. The final choice depends on business requirements, performance expectations, and concurrency needs.",
+    "tags": [
+      "list",
+      "set",
+      "map",
+      "design"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  }
+]

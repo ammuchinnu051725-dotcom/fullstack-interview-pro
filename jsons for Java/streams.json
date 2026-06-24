@@ -1,0 +1,4478 @@
+[
+  {
+    "id": 331,
+    "type": "Theory",
+    "question": "What are Java Streams and why were they introduced?",
+    "answer": "Java Streams are a feature introduced in Java 8 that allow processing collections of data in a declarative way using functional programming concepts. They help perform operations like filtering, mapping, sorting, and aggregation without writing traditional iteration logic.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Stream Fundamentals",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Cognizant"
+    ],
+    "tags": [
+      "streams",
+      "java8",
+      "functional-programming"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 332,
+    "type": "Theory",
+    "question": "What is the difference between Collection and Stream in Java?",
+    "answer": "A Collection stores data in memory, whereas a Stream processes data from a source. Collections are eager and store elements, while Streams perform lazy operations and do not store data.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Stream Fundamentals",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Amazon",
+      "Oracle",
+      "Infosys"
+    ],
+    "tags": [
+      "collection-vs-stream",
+      "java8"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 333,
+    "type": "Theory",
+    "question": "What are the main characteristics of Java Streams?",
+    "answer": "Streams are lazy, support functional-style operations, do not store elements, can be processed sequentially or in parallel, and can be consumed only once.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Stream Fundamentals",
+    "difficulty": "Easy",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "stream-characteristics",
+      "lazy-evaluation"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 334,
+    "type": "Theory",
+    "question": "Explain the Stream pipeline in Java.",
+    "answer": "A Stream pipeline consists of three stages: a source, intermediate operations, and a terminal operation. The source provides data, intermediate operations transform data, and terminal operations produce the final result.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Stream Fundamentals",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "pipeline",
+      "intermediate-operation",
+      "terminal-operation"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 335,
+    "type": "Theory",
+    "question": "Are Java Streams a replacement for Collections?",
+    "answer": "No. Streams do not replace Collections. Collections are used for storing and managing data, while Streams are used for processing data efficiently.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Stream Fundamentals",
+    "difficulty": "Easy",
+    "frequency": 8,
+    "popularity": 95,
+    "companies": [
+      "TCS",
+      "Wipro"
+    ],
+    "tags": [
+      "collections",
+      "streams"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 336,
+    "type": "Theory",
+    "question": "Can a Java Stream be reused after a terminal operation?",
+    "answer": "No. Once a terminal operation is executed, the Stream is consumed and cannot be reused. A new Stream must be created from the source.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Stream Fundamentals",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "stream-lifecycle",
+      "terminal-operation"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 337,
+    "type": "Theory",
+    "question": "What is lazy evaluation in Java Streams?",
+    "answer": "Lazy evaluation means intermediate operations are not executed immediately. They are executed only when a terminal operation is invoked.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Stream Fundamentals",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "lazy-evaluation",
+      "optimization"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 338,
+    "type": "Theory",
+    "question": "Why are intermediate operations in Streams lazy?",
+    "answer": "Intermediate operations are lazy to optimize execution by avoiding unnecessary processing and allowing the Stream framework to combine multiple operations efficiently.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Stream Fundamentals",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 96,
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "tags": [
+      "lazy",
+      "optimization"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 339,
+    "type": "Theory",
+    "question": "What are intermediate operations in Java Streams?",
+    "answer": "Intermediate operations return another Stream and transform or filter elements. Examples include filter(), map(), sorted(), distinct(), and limit().",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Stream Fundamentals",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "TCS",
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "intermediate-operation"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 340,
+    "type": "Theory",
+    "question": "What are terminal operations in Java Streams?",
+    "answer": "Terminal operations produce a final result or side effect and trigger Stream execution. Examples include collect(), reduce(), count(), forEach(), and findFirst().",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Stream Fundamentals",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "terminal-operation",
+      "collect",
+      "reduce"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 341,
+    "type": "Theory",
+    "question": "How do you create a Stream from a Collection in Java?",
+    "answer": "A Stream can be created from a Collection using the stream() method. For example, list.stream() creates a sequential Stream from a List.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Creating Streams",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Amazon"
+    ],
+    "tags": [
+      "stream",
+      "collection",
+      "stream-creation"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 342,
+    "type": "Theory",
+    "question": "What is the difference between stream() and parallelStream()?",
+    "answer": "stream() creates a sequential Stream processed by a single thread, whereas parallelStream() divides processing into multiple tasks executed using the ForkJoinPool.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Creating Streams",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "parallel-stream",
+      "stream"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 343,
+    "type": "Coding Scenario",
+    "question": "How do you create a Stream from an array in Java?",
+    "answer": "Arrays.stream() can be used to create a Stream from an array. It supports both primitive arrays and object arrays.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Creating Streams",
+    "difficulty": "Easy",
+    "frequency": 9,
+    "popularity": 96,
+    "companies": [
+      "Oracle",
+      "Infosys"
+    ],
+    "tags": [
+      "arrays",
+      "stream-creation"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 344,
+    "type": "Theory",
+    "question": "How can you create an empty Stream in Java?",
+    "answer": "An empty Stream can be created using Stream.empty(). It returns a Stream containing no elements.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Creating Streams",
+    "difficulty": "Easy",
+    "frequency": 8,
+    "popularity": 94,
+    "companies": [
+      "TCS",
+      "Wipro"
+    ],
+    "tags": [
+      "stream-empty"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 345,
+    "type": "Theory",
+    "question": "How do you create a Stream using Stream.of()?",
+    "answer": "Stream.of() creates a Stream from a given set of values. It is useful when creating a Stream from a fixed number of elements.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Creating Streams",
+    "difficulty": "Easy",
+    "frequency": 9,
+    "popularity": 95,
+    "companies": [
+      "Infosys",
+      "Cognizant"
+    ],
+    "tags": [
+      "stream-of",
+      "creation"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 346,
+    "type": "Coding Scenario",
+    "question": "How can you generate infinite Streams in Java?",
+    "answer": "Infinite Streams can be created using Stream.generate() or Stream.iterate(). These Streams should normally be limited using limit() to avoid infinite processing.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Creating Streams",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "tags": [
+      "stream-generate",
+      "stream-iterate"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 347,
+    "type": "Coding Scenario",
+    "question": "What is the use of Stream.iterate()?",
+    "answer": "Stream.iterate() generates a sequence of values based on an initial value and a function that calculates the next value.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Creating Streams",
+    "difficulty": "Medium",
+    "frequency": 8,
+    "popularity": 94,
+    "companies": [
+      "Oracle",
+      "Microsoft"
+    ],
+    "tags": [
+      "iterate",
+      "infinite-stream"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 348,
+    "type": "Coding Scenario",
+    "question": "What is the use of Stream.generate()?",
+    "answer": "Stream.generate() creates an infinite sequential Stream where each element is generated by a Supplier function.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Creating Streams",
+    "difficulty": "Medium",
+    "frequency": 8,
+    "popularity": 94,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "generate",
+      "supplier"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 349,
+    "type": "Theory",
+    "question": "Can a Stream directly modify the original Collection?",
+    "answer": "No. Streams do not modify the source collection by default. However, modifying external state inside operations can lead to unexpected behavior and should be avoided.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Stream Fundamentals",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 96,
+    "companies": [
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "side-effects",
+      "immutability"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 350,
+    "type": "Theory",
+    "question": "Why should side effects be avoided in Java Stream operations?",
+    "answer": "Side effects make Stream operations harder to understand, test, and execute safely, especially when using parallel Streams. Streams work best with stateless operations.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Stream Fundamentals",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "side-effects",
+      "stateless-operation",
+      "parallel-stream"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 351,
+    "type": "Theory",
+    "question": "What is IntStream in Java?",
+    "answer": "IntStream is a specialized Stream API interface designed for processing primitive int values. It avoids unnecessary boxing and improves performance compared to Stream<Integer>.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Creating Streams",
+    "difficulty": "Medium",
+    "frequency": 8,
+    "popularity": 95,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "intstream",
+      "primitive-stream"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 352,
+    "type": "Theory",
+    "question": "What are the primitive Stream types available in Java?",
+    "answer": "Java provides three primitive Stream types: IntStream for int values, LongStream for long values, and DoubleStream for double values.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Creating Streams",
+    "difficulty": "Easy",
+    "frequency": 9,
+    "popularity": 96,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Oracle"
+    ],
+    "tags": [
+      "intstream",
+      "longstream",
+      "doublestream"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 353,
+    "type": "Coding Scenario",
+    "question": "How do you convert a Stream into a List?",
+    "answer": "A Stream can be converted into a List using the collect() terminal operation with Collectors.toList(). Example: stream.collect(Collectors.toList()).",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Creating Streams",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Amazon",
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "collect",
+      "tolist"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 354,
+    "type": "Coding Scenario",
+    "question": "How do you convert a Stream into a Set?",
+    "answer": "A Stream can be converted into a Set using collect(Collectors.toSet()). The resulting Set removes duplicate elements automatically.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Creating Streams",
+    "difficulty": "Easy",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Wipro",
+      "Cognizant"
+    ],
+    "tags": [
+      "collectors",
+      "toset"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 355,
+    "type": "Theory",
+    "question": "What is the difference between Stream.of() and Arrays.stream()?",
+    "answer": "Stream.of() creates a Stream from provided values, while Arrays.stream() creates a Stream directly from an existing array. Arrays.stream() is generally preferred when working with arrays.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Creating Streams",
+    "difficulty": "Medium",
+    "frequency": 8,
+    "popularity": 95,
+    "companies": [
+      "Oracle",
+      "Microsoft"
+    ],
+    "tags": [
+      "stream-of",
+      "arrays-stream"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 356,
+    "type": "Theory",
+    "question": "What happens if you call multiple terminal operations on the same Stream?",
+    "answer": "Calling multiple terminal operations on the same Stream causes IllegalStateException because a Stream cannot be reused after it has been consumed.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Stream Lifecycle",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "tags": [
+      "stream-lifecycle",
+      "illegalstateexception"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 357,
+    "type": "Theory",
+    "question": "What is a stateless operation in Java Streams?",
+    "answer": "A stateless operation does not depend on previously processed elements. Examples include filter() and map(). They can process each element independently.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Stream Fundamentals",
+    "difficulty": "Medium",
+    "frequency": 8,
+    "popularity": 95,
+    "companies": [
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "stateless",
+      "stream-operation"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 358,
+    "type": "Theory",
+    "question": "What is a stateful operation in Java Streams?",
+    "answer": "A stateful operation requires information about other elements before producing a result. Examples include sorted(), distinct(), and limit().",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Stream Fundamentals",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 96,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "stateful-operation",
+      "sorted",
+      "distinct"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 359,
+    "type": "Coding Scenario",
+    "question": "How can you check whether a Stream contains any elements?",
+    "answer": "The anyMatch() terminal operation can be used to check whether at least one element satisfies a condition. Alternatively, findAny() can also be used.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Terminal Operations",
+    "difficulty": "Easy",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "TCS",
+      "Amazon"
+    ],
+    "tags": [
+      "anymatch",
+      "findany"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 360,
+    "type": "Coding Scenario",
+    "question": "How do you count elements in a Stream?",
+    "answer": "The count() terminal operation returns the number of elements in a Stream after applying any intermediate operations.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Terminal Operations",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Amazon",
+      "Infosys",
+      "Oracle"
+    ],
+    "tags": [
+      "count",
+      "terminal-operation"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 361,
+    "type": "Theory",
+    "question": "What is the filter() method in Java Streams?",
+    "answer": "filter() is an intermediate operation that is used to select elements based on a given condition. It takes a Predicate and returns a new Stream containing only matching elements.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Intermediate Operations",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Amazon"
+    ],
+    "tags": [
+      "filter",
+      "predicate",
+      "intermediate-operation"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 362,
+    "type": "Coding Scenario",
+    "question": "How do you filter even numbers using Java Streams?",
+    "answer": "Use the filter() method with a condition that checks whether a number is divisible by 2. Example: numbers.stream().filter(n -> n % 2 == 0).",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Intermediate Operations",
+    "difficulty": "Easy",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Wipro",
+      "Cognizant"
+    ],
+    "tags": [
+      "filter",
+      "lambda"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 363,
+    "type": "Theory",
+    "question": "What is the map() operation in Java Streams?",
+    "answer": "map() is an intermediate operation used to transform each element of a Stream into another form. It applies a Function to every element and returns a new Stream.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Intermediate Operations",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "map",
+      "function",
+      "transformation"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 364,
+    "type": "Coding Scenario",
+    "question": "How do you convert a list of Strings into uppercase using Streams?",
+    "answer": "Use the map() operation with String::toUpperCase method reference. Example: names.stream().map(String::toUpperCase).",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Intermediate Operations",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Infosys",
+      "Amazon"
+    ],
+    "tags": [
+      "map",
+      "method-reference"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 365,
+    "type": "Theory",
+    "question": "What is the difference between map() and filter() in Java Streams?",
+    "answer": "filter() is used to remove unwanted elements based on a condition, while map() is used to transform each element into another value.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Intermediate Operations",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Oracle",
+      "Google"
+    ],
+    "tags": [
+      "map",
+      "filter",
+      "comparison"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 366,
+    "type": "Theory",
+    "question": "What is the distinct() method in Java Streams?",
+    "answer": "distinct() is a stateful intermediate operation that removes duplicate elements from a Stream using equals() and hashCode() methods.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Intermediate Operations",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Oracle",
+      "Microsoft"
+    ],
+    "tags": [
+      "distinct",
+      "duplicates",
+      "hashcode"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 367,
+    "type": "Coding Scenario",
+    "question": "How do you remove duplicate values from a List using Streams?",
+    "answer": "Use the distinct() intermediate operation followed by collect(). Example: list.stream().distinct().collect(Collectors.toList()).",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Intermediate Operations",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "TCS",
+      "Amazon"
+    ],
+    "tags": [
+      "distinct",
+      "collect"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 368,
+    "type": "Theory",
+    "question": "What is the sorted() method in Java Streams?",
+    "answer": "sorted() is an intermediate operation used to sort Stream elements. It can use natural ordering or a custom Comparator.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Intermediate Operations",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "tags": [
+      "sorted",
+      "comparator"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 369,
+    "type": "Coding Scenario",
+    "question": "How do you sort objects using Java Streams?",
+    "answer": "Use sorted() with a Comparator. Example: employees.stream().sorted(Comparator.comparing(Employee::getSalary)).",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Intermediate Operations",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "sorted",
+      "comparator",
+      "objects"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 370,
+    "type": "Theory",
+    "question": "What is the difference between sorted() and sort() in Java?",
+    "answer": "sort() is a method available on collections like List that modifies the original collection, while sorted() is a Stream operation that returns a new sorted Stream without changing the source.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Intermediate Operations",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 96,
+    "companies": [
+      "Oracle",
+      "Google"
+    ],
+    "tags": [
+      "sorted",
+      "collections",
+      "comparison"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 371,
+    "type": "Theory",
+    "question": "What is flatMap() in Java Streams?",
+    "answer": "flatMap() is an intermediate operation used to transform each element into a Stream and then flatten all resulting Streams into a single Stream. It is commonly used for handling nested collections.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Intermediate Operations",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "flatmap",
+      "nested-collections",
+      "stream-transformation"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 372,
+    "type": "Coding Scenario",
+    "question": "What is the difference between map() and flatMap()?",
+    "answer": "map() transforms each element into another element and maintains the Stream structure, whereas flatMap() transforms elements into Streams and merges the results into a single flattened Stream.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Intermediate Operations",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "tags": [
+      "map",
+      "flatmap",
+      "difference"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 373,
+    "type": "Coding Scenario",
+    "question": "How do you flatten a List of Lists using Java Streams?",
+    "answer": "Use flatMap() to convert each inner List into a Stream and combine all elements into one Stream. Example: listOfLists.stream().flatMap(List::stream).",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Intermediate Operations",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Infosys",
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "flatmap",
+      "list-of-lists"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 374,
+    "type": "Theory",
+    "question": "What is the peek() method in Java Streams?",
+    "answer": "peek() is an intermediate operation mainly used for debugging purposes. It allows performing an action on each element while passing the element downstream without modifying it.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Intermediate Operations",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 96,
+    "companies": [
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "peek",
+      "debugging"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 375,
+    "type": "Theory",
+    "question": "Why should peek() not be used for modifying Stream elements?",
+    "answer": "peek() is designed mainly for debugging and observation. Using it for modifications can create unexpected side effects and reduce code readability.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Intermediate Operations",
+    "difficulty": "Medium",
+    "frequency": 8,
+    "popularity": 95,
+    "companies": [
+      "Oracle",
+      "Amazon"
+    ],
+    "tags": [
+      "peek",
+      "side-effects"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 376,
+    "type": "Theory",
+    "question": "What is the limit() operation in Java Streams?",
+    "answer": "limit() is a short-circuiting intermediate operation that returns a Stream containing only the first specified number of elements.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Intermediate Operations",
+    "difficulty": "Easy",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "limit",
+      "short-circuiting"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 377,
+    "type": "Coding Scenario",
+    "question": "How do you get the first 5 elements from a Stream?",
+    "answer": "Use the limit() operation. Example: stream.limit(5) returns a Stream containing only the first five elements.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Intermediate Operations",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Amazon",
+      "TCS"
+    ],
+    "tags": [
+      "limit",
+      "stream-processing"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 378,
+    "type": "Theory",
+    "question": "What is the skip() method in Java Streams?",
+    "answer": "skip() is an intermediate operation that discards the first specified number of elements and returns the remaining elements of the Stream.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Intermediate Operations",
+    "difficulty": "Easy",
+    "frequency": 9,
+    "popularity": 96,
+    "companies": [
+      "Wipro",
+      "Cognizant"
+    ],
+    "tags": [
+      "skip",
+      "stream"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 379,
+    "type": "Coding Scenario",
+    "question": "How do you implement pagination using Java Streams?",
+    "answer": "Pagination can be implemented using skip() and limit(). skip() moves past previous records and limit() restricts the number of records returned for a page.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Intermediate Operations",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "pagination",
+      "skip",
+      "limit"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 380,
+    "type": "Theory",
+    "question": "Which Stream operations are short-circuiting operations?",
+    "answer": "Short-circuiting operations can terminate Stream processing early. Examples include limit(), findFirst(), findAny(), anyMatch(), allMatch(), and noneMatch().",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Intermediate Operations",
+    "difficulty": "Hard",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "short-circuiting",
+      "stream-optimization"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 381,
+    "type": "Theory",
+    "question": "What is the reduce() operation in Java Streams?",
+    "answer": "reduce() is a terminal operation used to combine Stream elements into a single result by repeatedly applying a binary operation. It is commonly used for sum, multiplication, maximum, and aggregation operations.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Terminal Operations",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "reduce",
+      "aggregation",
+      "terminal-operation"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 382,
+    "type": "Coding Scenario",
+    "question": "How do you calculate the sum of numbers using reduce()?",
+    "answer": "The reduce() method can combine all numbers by using an accumulator function. Example: numbers.stream().reduce(0, Integer::sum).",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Terminal Operations",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Amazon"
+    ],
+    "tags": [
+      "reduce",
+      "sum",
+      "aggregation"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 383,
+    "type": "Coding Scenario",
+    "question": "How do you find the maximum value from a List using Streams?",
+    "answer": "Use the max() terminal operation with a Comparator. Example: numbers.stream().max(Integer::compareTo).",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Terminal Operations",
+    "difficulty": "Easy",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "max",
+      "comparator"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 384,
+    "type": "Coding Scenario",
+    "question": "How do you find the minimum value from a Stream?",
+    "answer": "The min() terminal operation is used with a Comparator to return the smallest element from a Stream.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Terminal Operations",
+    "difficulty": "Easy",
+    "frequency": 9,
+    "popularity": 96,
+    "companies": [
+      "Infosys",
+      "Cognizant"
+    ],
+    "tags": [
+      "min",
+      "comparator"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 385,
+    "type": "Theory",
+    "question": "What is the difference between reduce() and collect() in Java Streams?",
+    "answer": "reduce() combines Stream elements into a single value, while collect() is used for mutable reduction such as converting Streams into Lists, Sets, Maps, or grouping data.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Terminal Operations",
+    "difficulty": "Hard",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Oracle"
+    ],
+    "tags": [
+      "reduce",
+      "collect",
+      "difference"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 386,
+    "type": "Theory",
+    "question": "What is findFirst() in Java Streams?",
+    "answer": "findFirst() is a short-circuiting terminal operation that returns the first element of a Stream wrapped inside an Optional.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Terminal Operations",
+    "difficulty": "Easy",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "findfirst",
+      "optional"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 387,
+    "type": "Theory",
+    "question": "What is findAny() in Java Streams?",
+    "answer": "findAny() returns any element from a Stream as an Optional. It is useful with parallel Streams where any available element can be returned efficiently.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Terminal Operations",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Google",
+      "Amazon"
+    ],
+    "tags": [
+      "findany",
+      "parallel-stream"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 388,
+    "type": "Theory",
+    "question": "What is the difference between findFirst() and findAny()?",
+    "answer": "findFirst() returns the first element respecting encounter order, while findAny() may return any element and can provide better performance in parallel Stream processing.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Terminal Operations",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "findfirst",
+      "findany",
+      "comparison"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 389,
+    "type": "Coding Scenario",
+    "question": "How do you check whether all elements satisfy a condition using Streams?",
+    "answer": "Use the allMatch() terminal operation. It returns true only when every element matches the given Predicate.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Terminal Operations",
+    "difficulty": "Easy",
+    "frequency": 8,
+    "popularity": 95,
+    "companies": [
+      "TCS",
+      "Oracle"
+    ],
+    "tags": [
+      "allmatch",
+      "predicate"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 390,
+    "type": "Coding Scenario",
+    "question": "How do you check whether any element matches a condition using Streams?",
+    "answer": "Use the anyMatch() terminal operation. It returns true when at least one element satisfies the provided Predicate.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Terminal Operations",
+    "difficulty": "Easy",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Amazon",
+      "Infosys"
+    ],
+    "tags": [
+      "anymatch",
+      "predicate"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 391,
+    "type": "Theory",
+    "question": "What is noneMatch() in Java Streams?",
+    "answer": "noneMatch() is a short-circuiting terminal operation that returns true if no elements in the Stream match the given Predicate.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Terminal Operations",
+    "difficulty": "Easy",
+    "frequency": 9,
+    "popularity": 96,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Oracle"
+    ],
+    "tags": [
+      "nonematch",
+      "predicate",
+      "short-circuiting"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 392,
+    "type": "Theory",
+    "question": "What is the difference between anyMatch(), allMatch(), and noneMatch()?",
+    "answer": "anyMatch() returns true if at least one element matches, allMatch() returns true if every element matches, and noneMatch() returns true if no element matches the condition.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Terminal Operations",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "match-operations",
+      "stream-api"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 393,
+    "type": "Theory",
+    "question": "What is forEach() in Java Streams?",
+    "answer": "forEach() is a terminal operation used to perform an action on every element of a Stream. It is commonly used for displaying or processing elements.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Terminal Operations",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "TCS",
+      "Amazon"
+    ],
+    "tags": [
+      "foreach",
+      "terminal-operation"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 394,
+    "type": "Theory",
+    "question": "What is the difference between forEach() and forEachOrdered()?",
+    "answer": "forEach() does not guarantee encounter order, especially in parallel Streams. forEachOrdered() maintains the original encounter order while processing elements.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Terminal Operations",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "foreach",
+      "foreachordered",
+      "parallel-stream"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 395,
+    "type": "Coding Scenario",
+    "question": "How do you join String elements using Java Streams?",
+    "answer": "Collectors.joining() is used to concatenate String elements from a Stream with optional delimiter, prefix, and suffix values.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Collectors",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Amazon",
+      "Infosys"
+    ],
+    "tags": [
+      "joining",
+      "collectors"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 396,
+    "type": "Coding Scenario",
+    "question": "How do you convert a Stream of objects into a Map?",
+    "answer": "Use Collectors.toMap() by providing functions to extract the key and value from each object.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Collectors",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Oracle"
+    ],
+    "tags": [
+      "tomap",
+      "collectors",
+      "mapping"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 397,
+    "type": "Theory",
+    "question": "What happens if duplicate keys are found while using Collectors.toMap()?",
+    "answer": "Collectors.toMap() throws IllegalStateException when duplicate keys are encountered unless a merge function is provided to resolve conflicts.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Collectors",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "tomap",
+      "duplicate-key",
+      "merge-function"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 398,
+    "type": "Coding Scenario",
+    "question": "How do you handle duplicate keys in Collectors.toMap()?",
+    "answer": "Provide a merge function as the third argument of Collectors.toMap() to decide which value should be retained when duplicate keys occur.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Collectors",
+    "difficulty": "Hard",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "tags": [
+      "merge-function",
+      "tomap"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 399,
+    "type": "Theory",
+    "question": "What is Optional in Java Streams?",
+    "answer": "Optional is a container object that may or may not contain a value. Stream operations like findFirst(), findAny(), min(), and max() return Optional to avoid null handling issues.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Terminal Operations",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Oracle",
+      "Google"
+    ],
+    "tags": [
+      "optional",
+      "null-handling"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 400,
+    "type": "Coding Scenario",
+    "question": "How do you safely retrieve a value from Optional returned by a Stream?",
+    "answer": "Use methods like orElse(), orElseGet(), orElseThrow(), or ifPresent() instead of directly calling get() to avoid NoSuchElementException.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Terminal Operations",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "optional",
+      "orelse",
+      "exception-handling"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 401,
+    "type": "Theory",
+    "question": "What is Collectors in Java Streams?",
+    "answer": "Collectors is a utility class that provides implementations of Collector interfaces. It is mainly used with the collect() terminal operation to accumulate Stream elements into collections, strings, maps, and other results.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Collectors",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Amazon"
+    ],
+    "tags": [
+      "collectors",
+      "collect",
+      "stream-api"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 402,
+    "type": "Theory",
+    "question": "What is the collect() method in Java Streams?",
+    "answer": "collect() is a terminal operation used to transform Stream elements into a mutable result such as List, Set, Map, or a custom object using a Collector implementation.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Collectors",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "collect",
+      "collector"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 403,
+    "type": "Coding Scenario",
+    "question": "How do you collect Stream elements into an ArrayList?",
+    "answer": "Use Collectors.toList() with collect(). Example: stream.collect(Collectors.toList()). It returns a List implementation containing Stream elements.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Collectors",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "TCS",
+      "Wipro"
+    ],
+    "tags": [
+      "tolist",
+      "arraylist",
+      "collect"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 404,
+    "type": "Coding Scenario",
+    "question": "How do you collect Stream elements into a Set?",
+    "answer": "Use Collectors.toSet() with collect(). The resulting Set automatically removes duplicate elements based on equals() and hashCode().",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Collectors",
+    "difficulty": "Easy",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Infosys",
+      "Cognizant"
+    ],
+    "tags": [
+      "toset",
+      "duplicates",
+      "collect"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 405,
+    "type": "Theory",
+    "question": "What is groupingBy() collector in Java Streams?",
+    "answer": "groupingBy() is used to group Stream elements based on a classifier function. It returns a Map where keys represent groups and values contain matching elements.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Collectors",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "groupingby",
+      "map",
+      "aggregation"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 406,
+    "type": "Coding Scenario",
+    "question": "How do you group employees by department using Streams?",
+    "answer": "Use Collectors.groupingBy() with the department getter method. Example: employees.stream().collect(Collectors.groupingBy(Employee::getDepartment)).",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Collectors",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Infosys"
+    ],
+    "tags": [
+      "groupingby",
+      "employee",
+      "lambda"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 407,
+    "type": "Theory",
+    "question": "What is partitioningBy() collector in Java Streams?",
+    "answer": "partitioningBy() divides Stream elements into two groups based on a Predicate. It returns a Map<Boolean, List<T>> where keys are true and false.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Collectors",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Oracle",
+      "Microsoft"
+    ],
+    "tags": [
+      "partitioningby",
+      "predicate",
+      "boolean-grouping"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 408,
+    "type": "Coding Scenario",
+    "question": "How do you separate even and odd numbers using Streams?",
+    "answer": "Use Collectors.partitioningBy() with a Predicate that checks whether a number is divisible by 2. It creates two groups: even numbers and odd numbers.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Collectors",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 96,
+    "companies": [
+      "TCS",
+      "Amazon"
+    ],
+    "tags": [
+      "partitioningby",
+      "even-odd"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 409,
+    "type": "Theory",
+    "question": "What is mapping() collector in Java Streams?",
+    "answer": "mapping() is a downstream collector used with groupingBy() or partitioningBy() to transform elements before collecting them.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Collectors",
+    "difficulty": "Hard",
+    "frequency": 8,
+    "popularity": 95,
+    "companies": [
+      "Google",
+      "Oracle"
+    ],
+    "tags": [
+      "mapping",
+      "downstream-collector"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 410,
+    "type": "Coding Scenario",
+    "question": "How do you get a list of employee names grouped by department?",
+    "answer": "Use groupingBy() along with mapping(). groupingBy() creates department groups and mapping() extracts employee names before collecting them into lists.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Collectors",
+    "difficulty": "Hard",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "tags": [
+      "groupingby",
+      "mapping",
+      "downstream-collector"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 401,
+    "type": "Theory",
+    "question": "What is Collectors in Java Streams?",
+    "answer": "Collectors is a utility class that provides implementations of Collector interfaces. It is mainly used with the collect() terminal operation to accumulate Stream elements into collections, strings, maps, and other results.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Collectors",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "TCS",
+      "Infosys",
+      "Amazon"
+    ],
+    "tags": [
+      "collectors",
+      "collect",
+      "stream-api"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 402,
+    "type": "Theory",
+    "question": "What is the collect() method in Java Streams?",
+    "answer": "collect() is a terminal operation used to transform Stream elements into a mutable result such as List, Set, Map, or a custom object using a Collector implementation.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Collectors",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "collect",
+      "collector"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 403,
+    "type": "Coding Scenario",
+    "question": "How do you collect Stream elements into an ArrayList?",
+    "answer": "Use Collectors.toList() with collect(). Example: stream.collect(Collectors.toList()). It returns a List implementation containing Stream elements.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Collectors",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "TCS",
+      "Wipro"
+    ],
+    "tags": [
+      "tolist",
+      "arraylist",
+      "collect"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 404,
+    "type": "Coding Scenario",
+    "question": "How do you collect Stream elements into a Set?",
+    "answer": "Use Collectors.toSet() with collect(). The resulting Set automatically removes duplicate elements based on equals() and hashCode().",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Collectors",
+    "difficulty": "Easy",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Infosys",
+      "Cognizant"
+    ],
+    "tags": [
+      "toset",
+      "duplicates",
+      "collect"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 405,
+    "type": "Theory",
+    "question": "What is groupingBy() collector in Java Streams?",
+    "answer": "groupingBy() is used to group Stream elements based on a classifier function. It returns a Map where keys represent groups and values contain matching elements.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Collectors",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "groupingby",
+      "map",
+      "aggregation"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 406,
+    "type": "Coding Scenario",
+    "question": "How do you group employees by department using Streams?",
+    "answer": "Use Collectors.groupingBy() with the department getter method. Example: employees.stream().collect(Collectors.groupingBy(Employee::getDepartment)).",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Collectors",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Infosys"
+    ],
+    "tags": [
+      "groupingby",
+      "employee",
+      "lambda"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 407,
+    "type": "Theory",
+    "question": "What is partitioningBy() collector in Java Streams?",
+    "answer": "partitioningBy() divides Stream elements into two groups based on a Predicate. It returns a Map<Boolean, List<T>> where keys are true and false.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Collectors",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Oracle",
+      "Microsoft"
+    ],
+    "tags": [
+      "partitioningby",
+      "predicate",
+      "boolean-grouping"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 408,
+    "type": "Coding Scenario",
+    "question": "How do you separate even and odd numbers using Streams?",
+    "answer": "Use Collectors.partitioningBy() with a Predicate that checks whether a number is divisible by 2. It creates two groups: even numbers and odd numbers.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Collectors",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 96,
+    "companies": [
+      "TCS",
+      "Amazon"
+    ],
+    "tags": [
+      "partitioningby",
+      "even-odd"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 409,
+    "type": "Theory",
+    "question": "What is mapping() collector in Java Streams?",
+    "answer": "mapping() is a downstream collector used with groupingBy() or partitioningBy() to transform elements before collecting them.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Collectors",
+    "difficulty": "Hard",
+    "frequency": 8,
+    "popularity": 95,
+    "companies": [
+      "Google",
+      "Oracle"
+    ],
+    "tags": [
+      "mapping",
+      "downstream-collector"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 410,
+    "type": "Coding Scenario",
+    "question": "How do you get a list of employee names grouped by department?",
+    "answer": "Use groupingBy() along with mapping(). groupingBy() creates department groups and mapping() extracts employee names before collecting them into lists.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Collectors",
+    "difficulty": "Hard",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "tags": [
+      "groupingby",
+      "mapping",
+      "downstream-collector"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 421,
+    "type": "Theory",
+    "question": "What is the difference between parallel() and sequential() methods in Streams?",
+    "answer": "parallel() converts a sequential Stream into a parallel Stream, while sequential() converts a parallel Stream back into sequential execution.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Parallel Streams",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "parallel",
+      "sequential",
+      "stream-mode"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 422,
+    "type": "Theory",
+    "question": "Are parallel Streams always faster than sequential Streams?",
+    "answer": "No. Parallel Streams are beneficial only for large datasets and CPU-intensive operations. For small datasets, the overhead of thread management can make them slower.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Parallel Streams",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "parallel-stream",
+      "performance"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 423,
+    "type": "Scenario",
+    "question": "What problems can occur when using shared variables inside parallel Streams?",
+    "answer": "Using shared mutable variables can cause race conditions and inconsistent results because multiple threads may update the same data simultaneously.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Parallel Streams",
+    "difficulty": "Hard",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "tags": [
+      "race-condition",
+      "parallel-stream",
+      "thread-safety"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 424,
+    "type": "Theory",
+    "question": "What is stream pipeline in Java?",
+    "answer": "A Stream pipeline consists of a source, zero or more intermediate operations, and a terminal operation. Data flows through the pipeline only when the terminal operation is executed.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Stream Fundamentals",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Oracle",
+      "Amazon"
+    ],
+    "tags": [
+      "stream-pipeline",
+      "lazy-evaluation"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 425,
+    "type": "Theory",
+    "question": "What is lazy evaluation in Java Streams?",
+    "answer": "Lazy evaluation means intermediate Stream operations are not executed immediately. They are executed only when a terminal operation is called.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Stream Fundamentals",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "lazy-evaluation",
+      "stream-pipeline"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 426,
+    "type": "Scenario",
+    "question": "Why does Java Stream use lazy execution?",
+    "answer": "Lazy execution improves performance by avoiding unnecessary processing and allowing optimization such as short-circuiting operations.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Stream Fundamentals",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Microsoft",
+      "Amazon"
+    ],
+    "tags": [
+      "lazy-execution",
+      "optimization"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 427,
+    "type": "Theory",
+    "question": "Can a Stream be reused after a terminal operation?",
+    "answer": "No. Once a terminal operation is executed, the Stream is consumed and cannot be reused. Attempting to reuse it throws IllegalStateException.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Stream Lifecycle",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "stream-reuse",
+      "illegalstateexception"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 428,
+    "type": "Scenario",
+    "question": "How do you process the same data multiple times using Streams?",
+    "answer": "Create a new Stream from the original data source each time because Streams cannot be reused after a terminal operation.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Stream Lifecycle",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 96,
+    "companies": [
+      "Oracle",
+      "Wipro"
+    ],
+    "tags": [
+      "stream-reuse",
+      "collection-source"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 429,
+    "type": "Coding Scenario",
+    "question": "How do you find duplicate elements in a List using Streams?",
+    "answer": "Use a Set to track previously seen elements while filtering the Stream. Elements that cannot be added to the Set are duplicates.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Real Time Problems",
+    "difficulty": "Hard",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "tags": [
+      "duplicates",
+      "set",
+      "filter"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 430,
+    "type": "Coding Scenario",
+    "question": "How do you find the second highest number from a List using Streams?",
+    "answer": "Sort the Stream in descending order, remove duplicates using distinct(), skip the first element, and retrieve the next element using findFirst().",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Real Time Problems",
+    "difficulty": "Hard",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Infosys"
+    ],
+    "tags": [
+      "second-highest",
+      "sorted",
+      "distinct"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 431,
+    "type": "Coding Scenario",
+    "question": "How do you find the first non-repeated character in a String using Streams?",
+    "answer": "Convert the String into a Stream of characters, group characters by frequency using groupingBy(), preserve order using LinkedHashMap, and find the first character with count equal to one.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Real Time Problems",
+    "difficulty": "Hard",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "string",
+      "frequency",
+      "groupingby"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 432,
+    "type": "Coding Scenario",
+    "question": "How do you count character frequency in a String using Java Streams?",
+    "answer": "Use chars() to create an IntStream, convert values into characters, and collect them using groupingBy() with counting() collector.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Real Time Problems",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Infosys",
+      "Amazon"
+    ],
+    "tags": [
+      "character-count",
+      "groupingby",
+      "counting"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 433,
+    "type": "Coding Scenario",
+    "question": "How do you find duplicate characters in a String using Streams?",
+    "answer": "Group characters by their frequency using groupingBy() and filter entries where the count is greater than one.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Real Time Problems",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "TCS",
+      "Wipro"
+    ],
+    "tags": [
+      "duplicates",
+      "string",
+      "frequency"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 434,
+    "type": "Coding Scenario",
+    "question": "How do you find the longest String from a List using Streams?",
+    "answer": "Use max() with Comparator.comparingInt(String::length) to find the String having the maximum length.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Real Time Problems",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "max",
+      "string-length",
+      "comparator"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 435,
+    "type": "Coding Scenario",
+    "question": "How do you sort employees by salary using Streams?",
+    "answer": "Use sorted() with Comparator.comparing(Employee::getSalary).reversed() for descending salary order.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Real Time Problems",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "tags": [
+      "employee",
+      "sorting",
+      "comparator"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 436,
+    "type": "Coding Scenario",
+    "question": "How do you find the highest salary employee using Streams?",
+    "answer": "Use max() with Comparator.comparing(Employee::getSalary) to find the employee having the highest salary.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Real Time Problems",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "employee",
+      "max",
+      "salary"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 437,
+    "type": "Coding Scenario",
+    "question": "How do you find the top 3 highest paid employees using Streams?",
+    "answer": "Sort employees by salary in descending order using sorted(), then use limit(3) to retrieve the top three employees.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Real Time Problems",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "tags": [
+      "limit",
+      "sorting",
+      "top-n"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 438,
+    "type": "Coding Scenario",
+    "question": "How do you group employees based on gender using Streams?",
+    "answer": "Use Collectors.groupingBy(Employee::getGender) to create groups of employees based on gender.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Real Time Problems",
+    "difficulty": "Easy",
+    "frequency": 9,
+    "popularity": 96,
+    "companies": [
+      "Infosys",
+      "Cognizant"
+    ],
+    "tags": [
+      "groupingby",
+      "employee",
+      "gender"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 439,
+    "type": "Coding Scenario",
+    "question": "How do you calculate the average age of employees using Streams?",
+    "answer": "Use Collectors.averagingInt(Employee::getAge) to calculate the average age from employee objects.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Real Time Problems",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "averaging",
+      "employee",
+      "collectors"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 440,
+    "type": "Coding Scenario",
+    "question": "How do you find employees with salary greater than a given amount using Streams?",
+    "answer": "Use filter() with a salary comparison condition. Example: employees.stream().filter(e -> e.getSalary() > amount).",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Real Time Problems",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "TCS",
+      "Amazon",
+      "Infosys"
+    ],
+    "tags": [
+      "filter",
+      "employee",
+      "predicate"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 441,
+    "type": "Coding Scenario",
+    "question": "How do you find employees count department-wise using Streams?",
+    "answer": "Use groupingBy() with counting() collector. It creates a Map where department names are keys and employee counts are values.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Real Time Problems",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Infosys"
+    ],
+    "tags": [
+      "groupingby",
+      "counting",
+      "employee"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 442,
+    "type": "Coding Scenario",
+    "question": "How do you find the department having maximum employees using Streams?",
+    "answer": "First group employees by department using groupingBy() and counting(), then find the maximum entry using max() on Map entries.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Real Time Problems",
+    "difficulty": "Hard",
+    "frequency": 9,
+    "popularity": 98,
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "groupingby",
+      "max",
+      "map-entry"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 443,
+    "type": "Coding Scenario",
+    "question": "How do you find the second highest salary employee using Streams without sorting the complete list?",
+    "answer": "Use Stream reduction or maintain the top two salary values using reduce(). Sorting is simpler but has higher time complexity.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Real Time Problems",
+    "difficulty": "Hard",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "tags": [
+      "reduce",
+      "second-highest",
+      "optimization"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 444,
+    "type": "Coding Scenario",
+    "question": "How do you merge two lists using Java Streams?",
+    "answer": "Use Stream.concat() to combine two Streams and then collect the result into a List.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Real Time Problems",
+    "difficulty": "Easy",
+    "frequency": 9,
+    "popularity": 96,
+    "companies": [
+      "TCS",
+      "Wipro"
+    ],
+    "tags": [
+      "stream-concat",
+      "merge",
+      "list"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 445,
+    "type": "Coding Scenario",
+    "question": "How do you convert a List of Lists into a single List using Streams?",
+    "answer": "Use flatMap() to flatten nested Streams and collect all elements into a single List.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Real Time Problems",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "flatmap",
+      "nested-list",
+      "flattening"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 446,
+    "type": "Coding Scenario",
+    "question": "How do you remove null values from a List using Streams?",
+    "answer": "Use filter(Objects::nonNull) to remove null elements from the Stream before collecting the result.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Real Time Problems",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Infosys",
+      "Cognizant"
+    ],
+    "tags": [
+      "filter",
+      "nonnull",
+      "cleanup"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 447,
+    "type": "Coding Scenario",
+    "question": "How do you find common elements between two Lists using Streams?",
+    "answer": "Stream one list and use filter() with contains() on the second list, then collect matching elements.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Real Time Problems",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Amazon",
+      "Infosys"
+    ],
+    "tags": [
+      "intersection",
+      "filter",
+      "list"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 448,
+    "type": "Coding Scenario",
+    "question": "How do you find missing numbers from a sequence using Streams?",
+    "answer": "Create a complete range using IntStream.range(), then compare it with the existing numbers using filter() and contains().",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Real Time Problems",
+    "difficulty": "Hard",
+    "frequency": 8,
+    "popularity": 95,
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "intstream",
+      "range",
+      "missing-number"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 449,
+    "type": "Coding Scenario",
+    "question": "How do you check whether two Lists contain the same elements using Streams?",
+    "answer": "Sort both Lists and compare their Stream results, or convert them into Sets when order does not matter and compare equality.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Real Time Problems",
+    "difficulty": "Medium",
+    "frequency": 8,
+    "popularity": 95,
+    "companies": [
+      "Oracle",
+      "Wipro"
+    ],
+    "tags": [
+      "comparison",
+      "stream",
+      "collections"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 450,
+    "type": "Coding Scenario",
+    "question": "How do you partition employees based on salary criteria using Streams?",
+    "answer": "Use Collectors.partitioningBy() with a salary Predicate to divide employees into matching and non-matching groups.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Real Time Problems",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "tags": [
+      "partitioningby",
+      "predicate",
+      "employee"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 451,
+    "type": "Theory",
+    "question": "What are primitive Streams in Java?",
+    "answer": "Primitive Streams are specialized Streams for primitive data types. Java provides IntStream, LongStream, and DoubleStream to avoid unnecessary boxing and improve performance.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Primitive Streams",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Oracle"
+    ],
+    "tags": [
+      "intstream",
+      "longstream",
+      "doublestream"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 452,
+    "type": "Theory",
+    "question": "Why are primitive Streams like IntStream preferred over Stream<Integer>?",
+    "answer": "Primitive Streams avoid boxing and unboxing overhead, resulting in better memory usage and improved performance when processing large amounts of primitive data.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Primitive Streams",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "boxing",
+      "unboxing",
+      "performance"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 453,
+    "type": "Coding Scenario",
+    "question": "How do you generate a range of numbers using IntStream?",
+    "answer": "Use IntStream.range() or IntStream.rangeClosed(). range() excludes the ending value while rangeClosed() includes it.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Primitive Streams",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "intstream",
+      "range",
+      "rangeclosed"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 454,
+    "type": "Theory",
+    "question": "What is the difference between IntStream.range() and IntStream.rangeClosed()?",
+    "answer": "range(start, end) generates values excluding the end value, while rangeClosed(start, end) includes both start and end values.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Primitive Streams",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "range",
+      "rangeclosed",
+      "intstream"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 455,
+    "type": "Coding Scenario",
+    "question": "How do you calculate sum using IntStream?",
+    "answer": "Use the sum() terminal operation provided by IntStream. Example: IntStream.of(1,2,3).sum() returns the total value.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Primitive Streams",
+    "difficulty": "Easy",
+    "frequency": 9,
+    "popularity": 96,
+    "companies": [
+      "Wipro",
+      "Cognizant"
+    ],
+    "tags": [
+      "intstream",
+      "sum"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 456,
+    "type": "Theory",
+    "question": "What is the purpose of boxed() method in primitive Streams?",
+    "answer": "boxed() converts primitive Stream elements like IntStream into their wrapper object Stream equivalents such as Stream<Integer>.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Primitive Streams",
+    "difficulty": "Medium",
+    "frequency": 8,
+    "popularity": 95,
+    "companies": [
+      "Oracle",
+      "Microsoft"
+    ],
+    "tags": [
+      "boxed",
+      "primitive-stream",
+      "wrapper-class"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 457,
+    "type": "Theory",
+    "question": "What is Optional in Java Stream processing?",
+    "answer": "Optional is used to represent a value that may or may not exist. Stream operations such as findFirst(), findAny(), max(), and min() return Optional to handle missing values safely.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Optional",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "tags": [
+      "optional",
+      "null-handling",
+      "stream-api"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 458,
+    "type": "Theory",
+    "question": "What is the difference between Optional.of() and Optional.ofNullable()?",
+    "answer": "Optional.of() does not allow null values and throws NullPointerException if null is passed. Optional.ofNullable() accepts null values and creates an empty Optional.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Optional",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Oracle",
+      "Microsoft"
+    ],
+    "tags": [
+      "optional",
+      "of",
+      "ofnullable"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 459,
+    "type": "Coding Scenario",
+    "question": "How do you provide a default value when Optional is empty?",
+    "answer": "Use orElse() to provide a default value, or use orElseGet() when the default value should be created lazily.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Optional",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Infosys",
+      "TCS"
+    ],
+    "tags": [
+      "optional",
+      "orelse",
+      "orelseget"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 460,
+    "type": "Theory",
+    "question": "What is the difference between orElse() and orElseGet() in Optional?",
+    "answer": "orElse() always evaluates the default value even when Optional contains a value, while orElseGet() evaluates the supplier only when the Optional is empty.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Optional",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "tags": [
+      "optional",
+      "orelse",
+      "performance"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 461,
+    "type": "Theory",
+    "question": "What is a Collector interface in Java Streams?",
+    "answer": "Collector interface defines a mutable reduction operation that accumulates Stream elements into a final result. It provides methods like supplier(), accumulator(), combiner(), finisher(), and characteristics().",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Advanced Collectors",
+    "difficulty": "Hard",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Oracle"
+    ],
+    "tags": [
+      "collector",
+      "mutable-reduction",
+      "advanced-streams"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 462,
+    "type": "Theory",
+    "question": "What are the main methods of Collector interface?",
+    "answer": "The main methods are supplier() for creating containers, accumulator() for adding elements, combiner() for merging results, finisher() for final transformation, and characteristics() for collector properties.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Advanced Collectors",
+    "difficulty": "Hard",
+    "frequency": 8,
+    "popularity": 95,
+    "companies": [
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "collector-interface",
+      "supplier",
+      "accumulator"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 463,
+    "type": "Coding Scenario",
+    "question": "How do you create a custom Collector in Java Streams?",
+    "answer": "Implement the Collector interface or use Collector.of() by providing supplier, accumulator, combiner, and finisher functions to define custom collection logic.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Advanced Collectors",
+    "difficulty": "Hard",
+    "frequency": 8,
+    "popularity": 96,
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "tags": [
+      "custom-collector",
+      "collector-of"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 464,
+    "type": "Theory",
+    "question": "What is the difference between map() and flatMap() in Java Streams?",
+    "answer": "map() transforms each element into another element and maintains the Stream structure, while flatMap() transforms elements into Streams and flattens the resulting nested Streams into a single Stream.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Mapping Operations",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Google"
+    ],
+    "tags": [
+      "map",
+      "flatmap",
+      "transformation"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 465,
+    "type": "Coding Scenario",
+    "question": "How do you flatten a list of employee projects using Streams?",
+    "answer": "Use flatMap() to convert each employee's project list into a single Stream of projects and collect the result.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Mapping Operations",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Amazon",
+      "Infosys"
+    ],
+    "tags": [
+      "flatmap",
+      "nested-objects",
+      "collections"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 466,
+    "type": "Theory",
+    "question": "What is peek() method in Java Streams?",
+    "answer": "peek() is an intermediate operation mainly used for debugging or observing Stream elements during pipeline execution without modifying the Stream.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Intermediate Operations",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 96,
+    "companies": [
+      "Oracle",
+      "Amazon"
+    ],
+    "tags": [
+      "peek",
+      "debugging",
+      "intermediate-operation"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 467,
+    "type": "Scenario",
+    "question": "Why should peek() not be used for modifying Stream elements?",
+    "answer": "peek() is intended for debugging and observation. Using it for side effects can make code harder to understand and may cause unexpected behavior, especially with parallel Streams.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Intermediate Operations",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "peek",
+      "side-effects",
+      "best-practices"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 468,
+    "type": "Theory",
+    "question": "What are short-circuiting operations in Java Streams?",
+    "answer": "Short-circuiting operations can stop Stream processing early without evaluating all elements. Examples include limit(), findFirst(), findAny(), anyMatch(), and noneMatch().",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Stream Optimization",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "tags": [
+      "short-circuiting",
+      "optimization",
+      "limit"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 469,
+    "type": "Scenario",
+    "question": "How does limit() improve Stream performance?",
+    "answer": "limit() restricts the number of elements processed by a Stream. Since it is a short-circuiting operation, remaining elements are not evaluated after the limit is reached.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Stream Optimization",
+    "difficulty": "Easy",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Amazon",
+      "TCS"
+    ],
+    "tags": [
+      "limit",
+      "performance",
+      "short-circuiting"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 470,
+    "type": "Scenario",
+    "question": "How does distinct() work internally in Java Streams?",
+    "answer": "distinct() removes duplicate elements by maintaining a Set internally and relying on equals() and hashCode() implementations to identify duplicates.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Intermediate Operations",
+    "difficulty": "Hard",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Amazon",
+      "Oracle"
+    ],
+    "tags": [
+      "distinct",
+      "hashcode",
+      "equals"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 471,
+    "type": "Theory",
+    "question": "What happens internally when a Stream pipeline is executed?",
+    "answer": "When a terminal operation is invoked, Java traverses the Stream pipeline, combines intermediate operations, applies optimizations, and processes elements from the source to produce the final result.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Stream Internals",
+    "difficulty": "Hard",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "stream-internals",
+      "pipeline",
+      "execution"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 472,
+    "type": "Theory",
+    "question": "How does Stream API improve code readability compared to traditional loops?",
+    "answer": "Stream API provides a declarative programming style where developers specify what operation is needed instead of how to perform iteration manually, making code shorter and easier to understand.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Best Practices",
+    "difficulty": "Easy",
+    "frequency": 9,
+    "popularity": 96,
+    "companies": [
+      "TCS",
+      "Infosys"
+    ],
+    "tags": [
+      "declarative-programming",
+      "readability"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 473,
+    "type": "Scenario",
+    "question": "What are common mistakes developers make while using Java Streams?",
+    "answer": "Common mistakes include reusing Streams, excessive use of parallel Streams, modifying external state inside operations, ignoring Optional handling, and creating inefficient pipelines.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Best Practices",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Amazon",
+      "Google"
+    ],
+    "tags": [
+      "best-practices",
+      "stream-mistakes"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 474,
+    "type": "Theory",
+    "question": "Are Java Streams thread-safe?",
+    "answer": "No. Streams themselves are not thread-safe. When using parallel Streams, developers must ensure that operations do not modify shared mutable state.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Thread Safety",
+    "difficulty": "Medium",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "thread-safety",
+      "parallel-stream"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 475,
+    "type": "Scenario",
+    "question": "How can you optimize a Stream pipeline for better performance?",
+    "answer": "Optimize by filtering early, avoiding unnecessary intermediate operations, using primitive Streams for numeric operations, and choosing parallel Streams only when appropriate.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Performance Optimization",
+    "difficulty": "Hard",
+    "frequency": 10,
+    "popularity": 99,
+    "companies": [
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "tags": [
+      "optimization",
+      "performance",
+      "stream-pipeline"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 476,
+    "type": "Coding Scenario",
+    "question": "How do you convert a Stream into an array?",
+    "answer": "Use the toArray() terminal operation. Example: stream.toArray(String[]::new) converts Stream elements into a typed array.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Terminal Operations",
+    "difficulty": "Easy",
+    "frequency": 9,
+    "popularity": 96,
+    "companies": [
+      "Oracle",
+      "TCS"
+    ],
+    "tags": [
+      "toarray",
+      "conversion"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 477,
+    "type": "Coding Scenario",
+    "question": "How do you convert a List into a Stream?",
+    "answer": "Use the stream() method available on Collection interface. Example: list.stream() creates a sequential Stream from the List.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Stream Creation",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 98,
+    "companies": [
+      "Infosys",
+      "Wipro"
+    ],
+    "tags": [
+      "stream",
+      "collection"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 478,
+    "type": "Coding Scenario",
+    "question": "How do you create a Stream from an array?",
+    "answer": "Use Arrays.stream() method to create a Stream from an object array or primitive array.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Stream Creation",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 97,
+    "companies": [
+      "TCS",
+      "Oracle"
+    ],
+    "tags": [
+      "arrays-stream",
+      "stream-creation"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 479,
+    "type": "Scenario",
+    "question": "When should you prefer traditional loops over Streams?",
+    "answer": "Traditional loops may be preferred for complex control flow, frequent modifications, performance-critical low-level processing, or when Stream code becomes difficult to understand.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Best Practices",
+    "difficulty": "Medium",
+    "frequency": 9,
+    "popularity": 97,
+    "companies": [
+      "Google",
+      "Microsoft"
+    ],
+    "tags": [
+      "streams-vs-loops",
+      "best-practices"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  },
+  {
+    "id": 480,
+    "type": "Theory",
+    "question": "Why is Java Stream API popular in modern Java development?",
+    "answer": "Stream API enables functional programming style, improves readability, supports parallel processing, reduces boilerplate code, and provides powerful operations for collection processing.",
+    "experience": {
+      "min": 1,
+      "max": 3,
+      "label": "1-3"
+    },
+    "category": "Java Streams",
+    "subcategory": "Stream Fundamentals",
+    "difficulty": "Easy",
+    "frequency": 10,
+    "popularity": 100,
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft",
+      "Oracle"
+    ],
+    "tags": [
+      "stream-api",
+      "functional-programming",
+      "java-8"
+    ],
+    "sourceType": "Interview",
+    "views": 0,
+    "likes": 0,
+    "bookmarks": 0,
+    "isActive": true
+  }
+]
