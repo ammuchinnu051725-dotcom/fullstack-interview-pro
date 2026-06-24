@@ -286,6 +286,22 @@ function renderQuestions() {
       <div class="q-content expanded">${escapeHtml(q.answer)}</div>
     `;
     container.appendChild(card);
+
+    // In-Feed Ad: Show an ad after the 5th question on the page
+    if (idx === 4) {
+      const adDiv = document.createElement('div');
+      adDiv.className = 'ad-container in-feed';
+      adDiv.innerHTML = `
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-format="fluid"
+             data-ad-layout-key="-fb+5w+4e-db+86"
+             data-ad-client="ca-pub-3797040072271957"
+             data-ad-slot="IN_FEED_ID"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      `;
+      container.appendChild(adDiv);
+    }
   });
   handleAccordion();
   renderPagination(totalPages);
@@ -590,13 +606,40 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 window.downloadCheatsheet = async () => {
-  // Only download the questions that are currently filtered/visible
   const source = filteredQuestions;
 
   if (source.length === 0) {
     alert('No questions match your current filters. Please adjust your filters before downloading.');
     return;
   }
+
+  // Show the "Preparing Download" modal with an ad
+  const modal = document.getElementById('infoModal');
+  const title = document.getElementById('infoModalTitle');
+  const body = document.getElementById('infoModalBody');
+  const okBtn = document.getElementById('infoModalOk');
+
+  title.textContent = 'Preparing Your Download';
+  body.innerHTML = `
+    <div style="text-align:center;">
+      <p>Please wait while we generate your customized PDF cheatsheet...</p>
+      <div style="margin:20px 0; min-height:250px; background:#f9f9f9; display:flex; align-items:center; justify-content:center; border:1px dashed #ccc;">
+        <!-- AdSense Download Interstitial Placeholder -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-3797040072271957"
+             data-ad-slot="DOWNLOAD_AD_ID"
+             data-ad-format="rectangle"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      </div>
+      <p style="font-size:12px; color:#666;">Your download will start automatically in a few seconds.</p>
+    </div>
+  `;
+  okBtn.style.display = 'none'; // Hide the close button temporarily
+  modal.style.display = 'flex';
+
+  // Delay the download to allow the ad to be seen
+  await new Promise(resolve => setTimeout(resolve, 4000));
 
   const pdfLibUrl = 'https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js';
   if (!window.jspdf) {
@@ -656,6 +699,12 @@ window.downloadCheatsheet = async () => {
   const filename = parts.map(sanitize).join('_') + '.pdf';
 
   doc.save(filename);
+
+  // Close the modal and restore the button
+  setTimeout(() => {
+    modal.style.display = 'none';
+    okBtn.style.display = 'inline-flex';
+  }, 1000);
 };
 
 document.getElementById('downloadBtn').onclick = () => window.downloadCheatsheet();
