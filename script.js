@@ -297,7 +297,7 @@ function renderQuestions() {
              data-ad-format="fluid"
              data-ad-layout-key="-fb+5w+4e-db+86"
              data-ad-client="ca-pub-3797040072271957"
-             data-ad-slot="IN_FEED_ID"></ins>
+             data-ad-slot="8190604913"></ins>
         <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
       `;
       container.appendChild(adDiv);
@@ -560,7 +560,7 @@ function setupInfoModals() {
       title.textContent = 'Privacy Policy';
       body.innerHTML = `
         <div class="legal-text">
-          <p>Last Updated: May 2024</p>
+          <p>Last Updated: May 2026</p>
           <p>Your privacy is important to us. This Privacy Policy explains how Ultimate Full Stack Interview Pro collects, uses, and protects your information.</p>
           <h4>1. Information We Collect</h4>
           <p>We do not require users to create accounts. We may collect non-personal information such as browser type, device information, and pages visited to improve our service.</p>
@@ -628,7 +628,7 @@ window.downloadCheatsheet = async () => {
         <ins class="adsbygoogle"
              style="display:block"
              data-ad-client="ca-pub-3797040072271957"
-             data-ad-slot="DOWNLOAD_AD_ID"
+             data-ad-slot="1112236840"
              data-ad-format="rectangle"></ins>
         <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
       </div>
